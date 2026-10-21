@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/historias-ig/setup.sh\" >/dev/null 2>&1 || echo 'historias-ig: setup.sh falló (revisa la conexión)'",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
