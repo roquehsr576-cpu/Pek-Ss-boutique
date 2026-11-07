@@ -12,6 +12,14 @@ Contenido para la página **DXN** de Facebook (no mezclar con Pek'Ss).
 
 `reel_ganoderma_parte1.mp4` es la misma Parte 1 con música generada aparte (sin Suno).
 
+### Día 2
+
+| Archivo | Duración | Hora sugerida |
+|---|---|---|
+| `reel4_formas_ganoderma.mp4` | 21 s | 8:00 am |
+| `reel5_frappe_ganoderma.mp4` | 16 s (sin voz) | 2:00 pm |
+| `reel6_socio_dxn.mp4` | 24 s | 8:30 pm |
+
 ## Imágenes (`imagenes/`)
 
 - `foto_perfil_dxn_800.jpg`: foto de perfil para el sitio de DXN eWorld (JPG, 800 × 800)
