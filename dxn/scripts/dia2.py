@@ -25,7 +25,7 @@ if which=='formas':
     for i,n in enumerate(names):
         segs.append((cuts[i],cuts[i+1],'still',st[n],1.08,1.0)); tx.append((cuts[i],cuts[i+1],'pill',f'{i+1} · {lab[i]}',330))
     segs.append((16.4,20.6,'still',grid,1.12,1.0))
-    tx+= [(16.4,18.0,'big','¿CUÁL TE\nSORPRENDIÓ\nMÁS?',620),(18.0,20.6,'big','COMENTA TU\nFAVORITA',660),(18.3,20.6,'small','Las formas, según DXN',900)]
+    tx+= [(16.4,18.0,'big','¿CUÁL TE\nSORPRENDIÓ\nMÁS?',620),(18.0,20.6,'big','¿Y POR QUÉ?\nCUÉNTAME',660),(18.3,20.6,'small','Las formas, según DXN',900)]
     render(D+'v_formas.mp4',20.6,segs,tx,flashes=[4.4]+cuts[:-1]+[16.4],dark_from=16.4)
 elif which=='frappe':
     segs=[(0,3.0,'clip',Clip(D+'hook_frappe.mp4'),0,0),(3.0,6.2,'still',load_still(D+'r_ingred.png'),1.0,1.1),
