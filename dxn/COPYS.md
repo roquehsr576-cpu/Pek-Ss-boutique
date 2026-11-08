@@ -163,3 +163,16 @@ Leyenda COFEPRIS (se abrevia como [LEYENDA] abajo):
 > 💬 O escríbeme por mensaje y te explico todo.
 >
 > #Emprendimiento #DXN #NegocioDesdeCasa #CaféDeGanoderma #Emprende #DXNMéxico
+
+## Carrusel "¿Cuál café DXN es para ti?" (7 imágenes, `publicaciones/carrusel_cual_cafe/`)
+
+> ☕ ¿Cuál café DXN es para ti? Desliza y descubre el tuyo 👉
+>
+> Sin azúcar añadida, cremoso, con chocolate, intenso… y si no tomas café, también hay algo para ti 🍋🍵
+>
+> ¿Cuál se parece más a tu gusto? Cuéntame por qué 👇
+> 💬 Si no sabes cuál elegir, escríbeme por mensaje y te ayudo.
+>
+> [LEYENDA]
+>
+> #CaféDeGanoderma #DXN #Café #CoffeeLovers #DXNMéxico #SinAzúcarAñadida
