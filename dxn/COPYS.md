@@ -190,3 +190,17 @@ Leyenda COFEPRIS (se abrevia como [LEYENDA] abajo):
 > [LEYENDA]
 >
 > #VitaCafé #DXN #CaféDeGanoderma #Ganoderma #Café #DXNMéxico
+
+## Reel 8: "Lingzhi Black Coffee 2 en 1" (74 s, `reels/reel8_black_coffee.mp4`)
+
+> ☕⚡ ¿Un café negro… con un hongo de más de 2,000 años de historia?
+>
+> Lingzhi Black Coffee 2 en 1: sabor intenso, aroma rico y sin azúcar añadida. Solo café y extracto de Ganoderma, cultivado por DXN desde 1993 con un proceso orgánico y su propio control de calidad.
+>
+> Y al final del video, 3 formas de prepararlo: clásico, americano helado y con canela 🧊🌿
+>
+> ¿Y tú, ya lo probaste? Cuéntame cómo te gusta tu café negro 👇
+>
+> [LEYENDA]
+>
+> #CaféNegro #BlackCoffee #CaféDeGanoderma #DXN #Ganoderma #SinAzúcarAñadida #DXNMéxico
