@@ -11,7 +11,7 @@ Capítulos (pegar en la descripción):
 0:06 Cómo crece
 0:31 Sus 6 formas
 0:55 La historia de DXN
-1:33 Del bosque a tu taza
+1:32 Del bosque a tu taza
 1:58 Café negro + 3 recetas
 3:15 Frappé en 30 segundos
 3:34 Vita Café
