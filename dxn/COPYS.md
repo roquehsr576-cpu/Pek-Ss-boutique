@@ -176,3 +176,17 @@ Leyenda COFEPRIS (se abrevia como [LEYENDA] abajo):
 > [LEYENDA]
 >
 > #CaféDeGanoderma #DXN #Café #CoffeeLovers #DXNMéxico #SinAzúcarAñadida
+
+## Reel 7: "Vita Café 3D" (`reels/reel7_vita_cafe_3d.mp4`)
+
+> ☕✨ ¡Vita Café tiene algo que decirte!
+>
+> En un solo sobre: café con ginseng, tongkat ali y extracto de Ganoderma. 6 en 1, solo agrega agua caliente.
+>
+> ¿Y sabías que el Ganoderma se cultiva porque en la naturaleza es muy difícil de encontrar? DXN lo cultiva con un proceso orgánico y su propio control de calidad, del cultivo a tu taza 🍄
+>
+> ¿Ya probaste tu Vita hoy? 💬 Escríbeme por mensaje.
+>
+> [LEYENDA]
+>
+> #VitaCafé #DXN #CaféDeGanoderma #Ganoderma #Café #DXNMéxico
