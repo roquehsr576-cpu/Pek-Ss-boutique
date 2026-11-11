@@ -32,6 +32,8 @@ raw = subprocess.run(['ffmpeg', '-loglevel', 'quiet', '-i', C + cfg['hook'], '-v
 fs = W * H * 3; hook = [Image.frombytes('RGB', (W, H), raw[i:i + fs]) for i in range(0, len(raw) - fs + 1, fs)]
 st = {k: engine.load_still(C + k + '.png') for k in [cfg['ingred'][0]] + [s[0] for s in cfg['steps']] + [cfg['final'][0]]}
 pack = Image.open(cfg['pack']); pack.thumbnail((600, 820), Image.LANCZOS)
+pack_s = Image.open(cfg['pack']); pack_s.thumbnail((330, 450), Image.LANCZOS)
+ADD = {'olla': 1, 'miel': 0, 'latte': 0}[key]
 emb = Embers(35, seed=3)
 # timeline
 SEG = [(0, 4.6, 'hook')]; t0 = 4.6
@@ -54,6 +56,10 @@ def base(t):
         for y in range(H): d.line((0, y, W, y), fill=(int(70 + 40 * y / H), int(38 + 20 * y / H), int(18 + 8 * y / H), 255))
         k = entrance(t, a, 0.6); dy, sc, ang = idle(t, 0.5, amp=7)
         place(fr, pack, W / 2, 1000 + 220 * (1 - k) + dy, (0.7 + 0.3 * k) * sc, ang, clamp(k * 1.4))
+    if n == 'ingred' or n == f'step{ADD}' or n == 'final':
+        k = entrance(t, a + (1.6 if n == 'ingred' else 0.5), 0.55); dy, sc, ang = idle(t, 1.3, amp=6)
+        x, y = (W - 230, 1270) if n != 'final' else (220, 1300)
+        place(fr, pack_s, x, y + 160 * (1 - k) + dy, (0.75 + 0.25 * k) * sc, ang + (-6 if n == 'final' else 5), clamp(k * 1.4))
     emb.draw(fr, t, color=(255, 200, 130), alpha=0.5); return fr
 # text schedule
 texts = [(s, 4.6, TL, c, pl, y) for (TL, f, c, pl, s, y) in []]
