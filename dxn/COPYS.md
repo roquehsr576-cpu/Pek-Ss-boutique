@@ -204,3 +204,42 @@ Leyenda COFEPRIS (se abrevia como [LEYENDA] abajo):
 > [LEYENDA]
 >
 > #CaféNegro #BlackCoffee #CaféDeGanoderma #DXN #Ganoderma #SinAzúcarAñadida #DXNMéxico
+
+## Recetas con canela (31 s, solo música, `reels/receta*.mp4`)
+
+### Receta 1: Café de olla con canela
+
+> ☕🌿 Café de olla… con un toque diferente
+>
+> Necesitas: agua, una raja de canela, piloncillo al gusto y un sobre de Lingzhi Black Coffee por taza.
+> Hierve el agua con la canela y el piloncillo 3 minutos, apaga el fuego, agrega el café y sírvelo en jarrito de barro.
+>
+> ¿Y en tu casa cómo lo preparan? Cuéntame 👇
+>
+> [LEYENDA]
+>
+> #CaféDeOlla #CaféConCanela #RecetasMexicanas #CaféDeGanoderma #DXN #shorts
+
+### Receta 2: Café con canela y miel
+
+> Si mezclas café con canela y miel… pasa esto 👀☕
+>
+> 1 sobre de Lingzhi Black Coffee + 1 taza de agua caliente + ½ cucharadita de canela + 1 cucharadita de miel. Mezcla bien y el aroma cambia por completo.
+>
+> 📌 Guárdalo para mañana temprano y me cuentas qué tal.
+>
+> [LEYENDA]
+>
+> #CaféConCanela #CaféConMiel #RecetasFáciles #CaféDeGanoderma #DXN #shorts
+
+### Receta 3: Latte helado de canela
+
+> 🧊☕ Latte de canela en 1 minuto
+>
+> 1 sobre de Lingzhi Coffee 3 en 1, un chorrito de agua caliente, mucho hielo, leche fría y canela por encima.
+>
+> Compártelo con quien ama el café helado 🤎
+>
+> [LEYENDA]
+>
+> #LatteHelado #CaféConCanela #CaféFrío #RecetasFáciles #CaféDeGanoderma #DXN #shorts

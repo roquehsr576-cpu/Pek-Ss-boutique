@@ -1,0 +1,4 @@
+37b24d2ca03161a74e8e59bbc6c24569 ('success', None, '{"resultUrls":["https://tempfile.aiquickdraw.com/k/37b24d2ca03161a74e8e59bbc6c24569_1_1794369612_4355.mp4"]}', 356)
+42f612daf36aadb9dd2293a81a4aff1a ('success', None, '{"resultUrls":["https://tempfile.aiquickdraw.com/k/42f612daf36aadb9dd2293a81a4aff1a_1_1794369633_7356.mp4"]}', 378)
+a17a8686471255d5cc8fdfadfb4fa7a4 ('success', None, '{"resultUrls":["https://tempfile.aiquickdraw.com/k/a17a8686471255d5cc8fdfadfb4fa7a4_1_1794369633_9417.mp4"]}', 378)
+{"code":200,"msg":"success","data":1407.85}
