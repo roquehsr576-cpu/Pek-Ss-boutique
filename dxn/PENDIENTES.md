@@ -52,3 +52,27 @@ Las fotos oficiales de los empaques están en `fuentes/carrusel_cual_cafe/produc
 - La clave de kie.ai y el token de Facebook están guardados en el entorno de nubes "Pek-Ss-boutique" (no en este repositorio).
 - Voz del narrador: "Jorge" (ElevenLabs).
 - Música: Suno vía kie.ai, y "The Forest's Secret" en `fuentes/musica/`.
+
+## Siguiente sesión (acordado el 11 de noviembre de 2026)
+
+### Serie "Habla el producto" (formato del Vita Café 3D)
+
+Cada producto es un personaje 3D (hecho a partir de su empaque oficial) que explica qué contiene cada ingrediente. El producto se presenta para tomarse tal cual, sin mezclas.
+
+- Duración: más de 60 s. El personaje habla ~30 s (gancho, presentación, cierre) y el resto son escenas de cada ingrediente con su voz encima.
+- Costo estimado: ~350 créditos de kie.ai por video (lip sync ~10 créditos por segundo).
+- Orden: Lingzhi Black Coffee → Cordyceps Coffee → Cocozhi → Lingzhi Coffee 3 en 1 → Zhi Mocha → Lemonzhi.
+- Reglas: decir qué contiene cada ingrediente, su origen e historia; no decir qué hace en el cuerpo (ver tabla en la conversación y `POLITICAS.md`).
+- Llamada a la acción distinta en cada video. Seguir `ESTILO_ANIMACION.md`.
+
+### Bloqueos
+
+- ElevenLabs rechaza las voces: "Your subscription has a failed or incomplete payment". Roque debe completar el pago en elevenlabs.io antes de hacer los personajes.
+- Las fotos reales del producto que Roque quiere usar deben enviarse como archivo adjunto (no pegadas en el mensaje).
+
+### Hecho en esta sesión
+
+- Reel 8 Black Coffee (74 s) con el estilo nuevo.
+- Video largo para YouTube (4:16) en `youtube/`.
+- 3 recetas con canela con la bolsa oficial (`reels/receta*.mp4`).
+- Saldo kie.ai: ~1,408 créditos. vidIQ: 50 (se renuevan el 19 de noviembre).
