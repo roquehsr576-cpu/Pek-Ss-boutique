@@ -81,7 +81,8 @@ def calendario(arriba, grande, franja, nombre, y0=110, tam=150):
 
 
 calendario("¡YA LLEGÓ EL", "BUEN\nFIN :)", "en PeK'sS", "t1", y0=70, tam=128)
-placa([("Los regalos más bonitos", 46, BLANCO, ROSA), ("¡CON SÚPER", 84, BLANCO, ROSA), ("DESCUENTOS!", 92, ROSA, BLANCO)], 140, "t2")
+placa([("¡10% DE", 120, BLANCO, ROSA), ("DESCUENTO!", 110, ROSA, BLANCO), ("en toda la tienda", 56, BLANCO, ROSA)], 120, "t2")
 calendario("DOMINGO", "15", "de noviembre", "t3", y0=80, tam=200)
-placa([("¡Te esperamos!", 70, BLANCO, ROJO), ("Domingo 15 de noviembre", 44, ROJO, BLANCO)], 150, "t4")
+placa([("¡Ven, visítanos!", 72, BLANCO, ROJO), ("Ese regalo para ESE momento", 40, ROJO, BLANCO),
+       ("¡Se terminan pronto!", 50, BLANCO, ROJO)], 130, "t4")
 print("ok", sorted(p.name for p in OUT.iterdir()))
