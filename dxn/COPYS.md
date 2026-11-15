@@ -285,3 +285,15 @@ Leyenda COFEPRIS (se abrevia como [LEYENDA] abajo):
 > ¿Cuál de las seis es tu favorita? Cuéntame por qué 👇
 >
 > #Ganoderma #Reishi #DXN #Naturaleza #Hongos #SabíasQue #Curiosidades #DXNMéxico
+
+## Reel 11: "Esto no es IA: así se cultiva el Ganoderma en DXN" (67 s, `reels/reel11_proceso_real_dxn.mp4`)
+
+Fotos reales tomadas de la página oficial de DXN LATAM (Acerca de DXN).
+
+> 📷 Esto no es inteligencia artificial: son fotos reales de cómo se cultiva el Ganoderma en DXN.
+>
+> Materiales orgánicos, esterilización, bolsas suspendidas, semanas de crecimiento… y después cápsulas, pulido, sellado y etiquetado con lote y fecha de caducidad. Todo el proceso, paso a paso 🍄
+>
+> ¿Qué parte del proceso no conocías? Cuéntame 👇
+>
+> #Ganoderma #DXN #ProcesoReal #DetrásDeCámaras #Hongos #DXNMéxico
