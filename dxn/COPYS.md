@@ -273,3 +273,15 @@ Leyenda COFEPRIS (se abrevia como [LEYENDA] abajo):
 > [LEYENDA]
 >
 > #Cocozhi #DXN #Chocolate #Cacao #Ganoderma #DXNMéxico
+
+## Reel 10: "Las 6 formas del Ganoderma" versión larga (81 s, `reels/reel10_6_formas_largo.mp4`)
+
+> 🦚 ¿Sabías que este hongo puede crecer como la cola de un pavo real?
+>
+> Es Ganoderma, y en los cultivos de DXN toma 6 formas con nombre propio: Hígado, Corazón, Cerebro, Kimshen, Ruyi y Pavo real. Se llaman así por cómo se ven, no por lo que hacen.
+>
+> Quédate hasta el final para ver mi favorita y cómo nace cada hongo en solo 3 meses 🍄
+>
+> ¿Cuál de las seis es tu favorita? Cuéntame por qué 👇
+>
+> #Ganoderma #Reishi #DXN #Naturaleza #Hongos #SabíasQue #Curiosidades #DXNMéxico
