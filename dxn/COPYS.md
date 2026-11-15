@@ -259,3 +259,17 @@ Leyenda COFEPRIS (se abrevia como [LEYENDA] abajo):
 > [LEYENDA]
 >
 > #Cocozhi #DXN #Chocolate #Ganoderma #BebidaDeChocolate #DXNMéxico
+
+## Reel 9: "Cocozhi" (61 s, `reels/reel9_cocozhi.mp4`)
+
+> 🍫 ¿Chocolate… con un hongo de más de 2,000 años de historia?
+>
+> Se llama Cocozhi: cocoa de calidad + extracto de Ganoderma. Sabe a chocolate, cremoso y reconfortante, y se prepara con 1 sobre en una taza de agua caliente, tal cual.
+>
+> El cacao tiene raíces muy nuestras (mayas y aztecas ya lo bebían) y el Ganoderma lo cultiva DXN en Malasia desde 1993. Quédate hasta el final para saber para quién es 👀
+>
+> ¿Y tú, ya lo probaste? Cuéntame a qué te supo 👇
+>
+> [LEYENDA]
+>
+> #Cocozhi #DXN #Chocolate #Cacao #Ganoderma #DXNMéxico
