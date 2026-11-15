@@ -31,11 +31,11 @@ texts = [
  (35.1, 42.8, TL('¿CÓMO SE PREPARA?', fB), 240), (36.4, 42.8, TL('1 SOBRE', fP, pill=RED), 400), (37.2, 42.8, TL('+ 1 TAZA DE AGUA CALIENTE', fP, pill=DARK), 510), (38.7, 42.8, TL('MEZCLA Y LISTO', fP, pill=CHOC), 620),
  (40.3, 42.8, TL('Tal cual, sin agregar nada más', fS, pill=DARK), 1500),
  (42.9, 51.0, TL('¿PARA QUIÉN?', fB), 240), (44.0, 51.0, TL('PARA TODA LA FAMILIA', fP, pill=RED), 400), (44.6, 51.0, TL('(según DXN)', fS), 500),
- (47.3, 51.0, TL('Niños pequeños: revisa la etiqueta\ny consulta a tu pediatra', fS, pill=DARK), 1380),
+ (47.3, 51.0, TL('Un momento para compartir en familia', fS, pill=DARK), 1450),
  (51.4, T, TL('¿Y TÚ, YA\nLO PROBASTE?', fB), 230), (52.7, T, TL('Cuéntame a qué te supo', fS, pill=RED), 1450),
  (53.4, T, TL('Este producto no es un medicamento.\nEl consumo de este producto es responsabilidad\nde quien lo recomienda y de quien lo usa.', fT, pill=(0, 0, 0, 160), pad=(26, 12)), 1660),
 ]
-words = [w for w in json.load(open(C + 'words.json'))['words'] if w.get('type') == 'word']
+words = [w for w in json.load(open(C + 'words.json'))['words'] if w.get('type') == 'word' and not (47.1 <= w['start'] < 50.9)]
 caps = []; cur = []
 for w in words:
     cur.append(w)
