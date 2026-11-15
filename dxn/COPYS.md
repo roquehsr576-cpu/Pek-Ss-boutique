@@ -243,3 +243,19 @@ Leyenda COFEPRIS (se abrevia como [LEYENDA] abajo):
 > [LEYENDA]
 >
 > #LatteHelado #CaféConCanela #CaféFrío #RecetasFáciles #CaféDeGanoderma #DXN #shorts
+
+## Infografía Cocozhi (`publicaciones/infografia_cocozhi.jpg`)
+
+> 🍫 ¿Ya conoces el Cocozhi?
+>
+> Cocoa de calidad + extracto de Ganoderma, en polvo listo para preparar. Sabe a chocolate: cremoso y reconfortante.
+>
+> ☕ Solo 1 sobre + 1 taza de agua caliente.
+> 👨‍👩‍👧 Apto para toda la familia (según DXN). Para niños pequeños, revisa la etiqueta y consulta a tu pediatra.
+>
+> ¿Ya lo probaste? Cuéntame a qué te supo 👇
+> 📌 Guárdalo para tu próxima tarde de chocolate.
+>
+> [LEYENDA]
+>
+> #Cocozhi #DXN #Chocolate #Ganoderma #BebidaDeChocolate #DXNMéxico
