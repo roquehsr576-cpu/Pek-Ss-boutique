@@ -1,0 +1,7 @@
+f4c70debc6dd19a08f045e2fa9e9c1d9 ('SUCCESS', '', ['https://tempfile.aiquickdraw.com/images/chatgpt/file_000000009a1481f5925cb01f4cb398ae.png'])
+61aa406d005425f33463bb968a046b5c ('SUCCESS', '', ['https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000ee2c822fb9c84e8b778d7545.png'])
+3fe9d0718370648291a194a09761cf45 ('SUCCESS', '', ['https://tempfile.aiquickdraw.com/images/chatgpt/file_0000000006b481fdacf12ab7fc6e51ea.png'])
+082a820bb4d50574ec3cd8012e6fe9c0 ('SUCCESS', '', ['https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000bc388230bedc5d196562b62b.png'])
+58c2735a801e05ffe2a1eac544e17c50 ('SUCCESS', '', ['https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000a9f081fdba01101c6347dceb.png'])
+5fdcbaff79a6f7d8af6748539cb9842d ('SUCCESS', '', ['https://tempfile.aiquickdraw.com/p/5fdcbaff79a6f7d8af6748539cb9842d_1_1794974182_5603.png'])
+{"code":200,"msg":"success","data":1057.85}

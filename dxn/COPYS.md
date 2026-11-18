@@ -297,3 +297,27 @@ Fotos reales tomadas de la página oficial de DXN LATAM (Acerca de DXN).
 > ¿Qué parte del proceso no conocías? Cuéntame 👇
 >
 > #Ganoderma #DXN #ProcesoReal #DetrásDeCámaras #Hongos #DXNMéxico
+
+## Reel 12 — 6 formas de tomar espirulina (70 s) · `reels/reel12_espirulina_6_formas.mp4`
+
+**Texto de la publicación:**
+
+Hace 500 años los mexicas ya la sacaban del lago de Texcoco 🌿 Hoy la conocemos como espirulina.
+
+Estas son 6 formas de tomarla:
+1️⃣ Cereal con leche caliente
+2️⃣ En licuado con plátano
+3️⃣ En cápsulas, con un vaso de agua
+4️⃣ En polvo, dentro de tu jugo de naranja
+5️⃣ Sobre fruta picada
+6️⃣ Bien fría, con leche y hielo
+
+¿Cuál conocías? 📌 Guárdalo para cuando la prepares.
+
+Productos: DXN Spirulina Cereal (30 sobres de 30 g), DXN Spirulina Capsule (90 cápsulas de 350 mg) y DXN Spirulina Powder (50 g).
+
+[LEYENDA]
+
+#espirulina #spirulina #DXN #recetas #desayuno #historiademexico #mexicas
+
+**Al publicar:** activa la etiqueta de contenido hecho con IA ("Información de IA" en Meta, "Contenido generado por IA" en TikTok). Las escenas son recreaciones generadas con IA.
