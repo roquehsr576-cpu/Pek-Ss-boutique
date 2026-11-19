@@ -5,10 +5,10 @@ R = '/tmp/claude-0/-home-user-Pek-Ss-boutique/f5892703-9636-54fe-89dd-0efcb8a15e
 words = [w for w in json.load(open(B + 'words.json'))['words'] if w.get('type') == 'word']
 T = 138.4
 SEG = [(0, 3.0, 'e6', 120, 237), (3.0, 8.5, 'a2', 1, 165), (8.5, 13.2, 'd5', 1, 141), (13.2, 17.8, 'a1', 1, 138),
-       (17.8, 22.8, 'e2', 1, 150), (22.8, 27.7, 'e3', 1, 147), (27.7, 29.8, 'e4', 60, 123), (29.8, 32.2, 'e5', 40, 112),
+       (17.8, 22.8, 'b2', 1, 150), (22.8, 27.7, 'b3', 1, 147), (27.7, 29.8, 'b4', 30, 120), (29.8, 32.2, 'e5', 40, 112),
        (32.2, 37.5, 'a3', 1, 159), (37.5, 42.2, 'a1', 1, 141), (42.2, 46.7, 'd1', 1, 135), (46.7, 52.4, 'd3', 1, 171),
-       (52.4, 56.5, 'd5', 100, 223), (56.5, 60.5, 'd6', 1, 120), (60.5, 65.3, 'a5', 1, 144), (65.3, 67.4, 'e4', 1, 63),
-       (67.4, 69.9, 'e1', 1, 75), (69.9, 74.5, 'a4', 1, 138), (74.5, 78.9, 'd2', 1, 132), (78.9, 83.9, 'd4', 1, 150),
+       (52.4, 56.5, 'd5', 100, 223), (56.5, 60.5, 'd6', 1, 120), (60.5, 65.3, 'b6', 1, 144), (65.3, 67.4, 'b4', 130, 210),
+       (67.4, 69.9, 'b1', 1, 75), (69.9, 74.5, 'a4', 1, 138), (74.5, 78.9, 'd2', 1, 132), (78.9, 83.9, 'b5', 1, 150),
        (83.9, 88.1, 'd5', 1, 126), (88.1, 92.7, 'e6', 1, 138), (92.7, 97.5, 'd6', 90, 237), (97.5, 99.8, 'a3', 120, 189),
        (99.8, 104.3, 'a1', 100, 237), (104.3, 108.4, 'a4', 100, 223), (108.4, 112.4, 'd1', 100, 220), (112.4, 116.5, 'a2', 100, 223),
        (116.5, T, 'end', 0, 0)]
@@ -73,8 +73,8 @@ def base(t):
         if a == s0:
             for j, kk in enumerate(keys):
                 k = entrance(t, a + 0.3 + j * 0.25, 0.5); dy, sc, ang = idle(t, j + 1, amp=6)
-                x = W - 230 if j == 0 else 230
-                place(fr, SMALL[kk], x, 1300 + 160 * (1 - k) + dy, (0.75 + 0.25 * k) * sc, ang + (5 if j == 0 else -5), clamp(k * 1.4))
+                x = (200 if a == 17.8 else W - 210) if j == 0 else 210
+                place(fr, SMALL[kk], x, 1440 + 160 * (1 - k) + dy, (0.75 + 0.25 * k) * sc, ang + (5 if j == 0 else -5), clamp(k * 1.4))
     return fr
 fH = font('Inter-ExtraBold.otf', 140); fB = font('Inter-ExtraBold.otf', 96); fM = font('Inter-ExtraBold.otf', 66)
 fP = font('Inter-ExtraBold.otf', 52); fS = font('Inter-Bold.otf', 42); fT = font('Inter-Medium.otf', 28)
@@ -102,18 +102,24 @@ for i, ln in enumerate(lines):
     s = ln[0]['start'] - 0.15; e = ln[-1]['end'] + 0.35
     if i + 1 < len(lines): e = min(e if lines[i + 1][0]['start'] - ln[-1]['end'] > 0.8 else lines[i + 1][0]['start'] - 0.15, lines[i + 1][0]['start'] - 0.15)
     spans.append((s, e, ln))
-fC = font('Inter-ExtraBold.otf', 66)
+fC = font('Inter-ExtraBold.otf', 66); fC2 = font('Inter-ExtraBold.otf', 56)
 def karaoke(fr, t):
     for s, e, ln in spans:
         if not (s <= t < e) or s < 3.5 and False: continue
         if t >= 116.5: return
-        d = ImageDraw.Draw(fr); ws = [w['text'].upper() for w in ln]; wd = [d.textlength(x + ' ', font=fC) for x in ws]
-        while sum(wd) > W - 60 and len(wd) > 0: break
-        k = entrance(t, s, 0.25); x = (W - sum(wd)) / 2; y = 1680 + 30 * (1 - k)
-        for w, txt, ww in zip(ln, ws, wd):
-            sung = t >= w['start']; col = (255, 214, 10) if sung else (255, 255, 255)
-            dy = -10 * clamp(1 - (t - w['start']) / 0.2) if sung and t - w['start'] < 0.2 else 0
-            d.text((x, y + dy), txt, font=fC, fill=col, stroke_width=7, stroke_fill=(0, 0, 0)); x += ww
+        d = ImageDraw.Draw(fr); ws = [w['text'].upper() for w in ln]; f = fC
+        wd = [d.textlength(x + ' ', font=f) for x in ws]
+        if sum(wd) > W - 80: f = fC2; wd = [d.textlength(x + ' ', font=f) for x in ws]
+        rows = [list(range(len(ws)))]
+        if sum(wd) > W - 80:
+            h = len(ws) // 2 + len(ws) % 2; rows = [list(range(h)), list(range(h, len(ws)))]
+        k = entrance(t, s, 0.25)
+        for r_i, row in enumerate(rows):
+            x = (W - sum(wd[i] for i in row)) / 2; y = 1680 - 80 * (len(rows) - 1 - r_i) + 30 * (1 - k)
+            for i in row:
+                w = ln[i]; sung = t >= w['start']; col = (255, 214, 10) if sung else (255, 255, 255)
+                dy = -10 * clamp(1 - (t - w['start']) / 0.2) if sung and t - w['start'] < 0.2 else 0
+                d.text((x, y + dy), ws[i], font=f, fill=col, stroke_width=7, stroke_fill=(0, 0, 0)); x += wd[i]
 def frame_at(t):
     fr = base(t)
     for a, _, n, _, _ in SEG[1:]:
