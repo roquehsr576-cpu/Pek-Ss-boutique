@@ -321,3 +321,23 @@ Productos: DXN Spirulina Cereal (30 sobres de 30 g), DXN Spirulina Capsule (90 c
 #espirulina #spirulina #DXN #recetas #desayuno #historiademexico #mexicas
 
 **Al publicar:** activa la etiqueta de contenido hecho con IA ("Información de IA" en Meta, "Contenido generado por IA" en TikTok). Las escenas son recreaciones generadas con IA.
+
+## Reel 13 — La fruta que huele a queso: noni (66 s) · `reels/reel13_noni_fruta_del_queso.mp4`
+
+**Texto de la publicación:**
+
+¿Sabías que hay una fruta que huele a queso? 🧀 Se llama noni (Morinda citrifolia), y los navegantes polinesios la llevaban en sus canoas de isla en isla.
+
+✔️ Es pariente del café
+✔️ De su raíz se sacaban tintes rojos y amarillos
+✔️ En el Pacífico Sur su jugo se toma por generaciones
+
+DXN lo hizo tomable: Morinzhi, concentrado de noni adicionado con Jamaica 🌺
+
+¿Te animarías a probarla? Cuéntame a qué te imaginas que sabe 👇
+
+Este producto no es un medicamento. El consumo de este producto es responsabilidad de quien lo recomienda y de quien lo usa.
+
+#noni #DXN #Morinzhi #jamaica #frutasexoticas #polinesia #sabiasque
+
+**Al publicar:** activa la etiqueta de contenido hecho con IA.
