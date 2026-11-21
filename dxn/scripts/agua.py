@@ -26,20 +26,55 @@ SEG = [(0, t_org - 2.2, 'splash'), (t_org - 2.2, t_beb - 0.15, 'organs'), (t_beb
        (t_agu - 0.15, t_tres - 0.15, 'w3'), (t_tres - 0.15, t_dos - 0.15, 'w1'), (t_dos - 0.15, t_t3 - 0.15, 'w2b'), (t_t3 - 0.15, t_rec - 0.15, 'splash2'),
        (t_rec - 0.15, t_cuan - 0.15, 'splash3'), (t_cuan - 0.15, T, 'w4')]
 fH = font('Inter-ExtraBold.otf', 120); fBig = font('Inter-ExtraBold.otf', 260); fB = font('Inter-ExtraBold.otf', 84); fM = font('Inter-ExtraBold.otf', 60)
-fP = font('Inter-ExtraBold.otf', 50); fS = font('Inter-Bold.otf', 40); fT = font('Inter-Medium.otf', 28)
+fP = font('Inter-ExtraBold.otf', 50); fS = font('Inter-Bold.otf', 40); fT = font('Inter-Medium.otf', 28); fS2 = font('Inter-Bold.otf', 38)
 BLUE = (10, 110, 200, 235); DARK = (8, 25, 45, 215); AQUA = (120, 220, 255); WHITE = (255, 255, 255)
 ORG = [('PULMONES', 83, at('pulmones')), ('MÚSCULOS Y RIÑONES', 79, at('músculos')), ('CEREBRO Y CORAZÓN', 73, at('cerebro')), ('HUESOS', 31, at('huesos'))]
 lblc = {}
 def bar(fr, t, s, name, pct, y):
     k = entrance(t, s, 0.45)
     if k <= 0: return
-    d = ImageDraw.Draw(fr); x0 = 90 + 200 * (1 - k); a = int(255 * clamp(k * 1.5))
-    d.rounded_rectangle((x0, y, x0 + 900, y + 150), 30, fill=(8, 25, 45, int(200 * clamp(k * 1.5))))
-    d.text((x0 + 36, y + 18), name, font=fP, fill=(255, 255, 255, a))
+    d = ImageDraw.Draw(fr); x0 = 520 + 150 * (1 - k); a = int(255 * clamp(k * 1.5))
+    d.rounded_rectangle((x0, y, x0 + 530, y + 140), 26, fill=(8, 25, 45, int(200 * clamp(k * 1.5))))
+    d.text((x0 + 24, y + 16), name, font=fS2, fill=(255, 255, 255, a))
     p = ease_out_cubic(clamp((t - s - 0.2) / 1.0)) * pct / 100
-    d.rounded_rectangle((x0 + 36, y + 92, x0 + 700, y + 126), 17, fill=(255, 255, 255, 60))
-    if p > 0.02: d.rounded_rectangle((x0 + 36, y + 92, x0 + 36 + 664 * p, y + 126), 17, fill=(80, 200, 255, 255))
-    d.text((x0 + 730, y + 60), f'{int(round(p * 100))}%', font=fM, fill=(120, 220, 255, a))
+    d.rounded_rectangle((x0 + 24, y + 86, x0 + 360, y + 116), 15, fill=(255, 255, 255, 60))
+    if p > 0.03: d.rounded_rectangle((x0 + 24, y + 86, x0 + 24 + 336 * p, y + 116), 15, fill=(80, 200, 255, 255))
+    d.text((x0 + 378, y + 62), f'{int(round(p * 100))}%', font=fM, fill=(120, 220, 255, a))
+FX = 290
+def body_mask():
+    m = Image.new('L', (W, H), 0); d = ImageDraw.Draw(m)
+    d.ellipse((FX - 85, 430, FX + 85, 610), fill=255); d.rectangle((FX - 30, 600, FX + 30, 650), fill=255)
+    d.rounded_rectangle((FX - 120, 640, FX + 120, 1070), 60, fill=255)
+    d.rounded_rectangle((FX - 178, 655, FX - 128, 1070), 25, fill=255); d.rounded_rectangle((FX + 128, 655, FX + 178, 1070), 25, fill=255)
+    d.rounded_rectangle((FX - 110, 1030, FX - 12, 1520), 40, fill=255); d.rounded_rectangle((FX + 12, 1030, FX + 110, 1520), 40, fill=255)
+    return m
+BODY = body_mask(); BODY_EDGE = BODY.filter(ImageFilter.FIND_EDGES).filter(ImageFilter.MaxFilter(5))
+ORGANS = {0: [('e', (FX - 95, 690, FX - 15, 860)), ('e', (FX + 15, 690, FX + 95, 860))],
+          1: [('e', (FX - 100, 1080, FX - 22, 1280)), ('e', (FX + 22, 1080, FX + 100, 1280)), ('e', (FX - 70, 910, FX - 30, 975)), ('e', (FX + 30, 910, FX + 70, 975))],
+          2: [('e', (FX - 62, 465, FX + 62, 560)), ('e', (FX + 8, 770, FX + 62, 825))],
+          3: [('l', (FX - 61, 1060, FX - 61, 1490)), ('l', (FX + 61, 1060, FX + 61, 1490)), ('l', (FX - 153, 680, FX - 153, 1040)), ('l', (FX + 153, 680, FX + 153, 1040)),
+              ('l', (FX, 650, FX, 1030))]}
+def figure(fr, t, a):
+    k = clamp((t - a) / 0.6)
+    if k <= 0: return
+    lvl = 1520 - (1520 - 430) * 0.6 * ease_out_cubic(clamp((t - a - 0.3) / 2.0))
+    water = Image.new('RGBA', (W, H)); wd = ImageDraw.Draw(water)
+    wd.polygon([(x, lvl + 10 * math.sin(x / 40 + t * 4)) for x in range(0, 620, 10)] + [(620, H), (0, H)], fill=(70, 190, 255, 200))
+    glass = Image.new('RGBA', (W, H), (255, 255, 255, int(45 * k)))
+    fr.alpha_composite(Image.composite(glass, Image.new('RGBA', (W, H)), BODY))
+    fr.alpha_composite(Image.composite(water, Image.new('RGBA', (W, H)), BODY.point(lambda v: int(v * k))))
+    fr.alpha_composite(Image.composite(Image.new('RGBA', (W, H), (255, 255, 255, int(230 * k))), Image.new('RGBA', (W, H)), BODY_EDGE))
+    act = None
+    for i, (_, _, s) in enumerate(ORG):
+        if t >= s - 0.2: act = i
+    ov = Image.new('RGBA', (W, H)); od = ImageDraw.Draw(ov)
+    for i, shapes in ORGANS.items():
+        on = (i == act); pul = 0.5 + 0.5 * math.sin(t * 6) if on else 0
+        col = (255, 230, 90, int(200 + 55 * pul)) if on else (255, 255, 255, 70 if act is not None and i < act else 0)
+        for kind, box in shapes:
+            if kind == 'e': od.ellipse(box, fill=col, outline=(255, 255, 255, 200) if on else None, width=4)
+            else: od.line(box, fill=col, width=14)
+    fr.alpha_composite(ov.filter(ImageFilter.GaussianBlur(2)))
 def drop(fr, t, s, pct, cx, cy, r):
     m = Image.new('L', (W, H), 0); dd = ImageDraw.Draw(m)
     dd.ellipse((cx - r, cy - r * 0.2, cx + r, cy + r * 1.8), fill=255); dd.polygon([(cx, cy - r * 1.6), (cx - r * 0.98, cy + r * 0.5), (cx + r * 0.98, cy + r * 0.5)], fill=255)
@@ -59,7 +94,8 @@ def base(t):
     if n in ('organs', 'baby'):
         fr = grad.copy(); emb.draw(fr, t, color=(200, 240, 255), alpha=0.6)
         if n == 'organs':
-            for i, (nm, pc, s) in enumerate(ORG): bar(fr, t, s - 0.2, nm, pc, 560 + i * 190)
+            figure(fr, t, a + 0.3)
+            for i, (nm, pc, s) in enumerate(ORG): bar(fr, t, s - 0.2, nm, pc, 560 + i * 200)
         else: drop(fr, t, a + 0.6, 0.78, W / 2, 930, 260)
         return fr
     if n == 'w2': return kb('w2', p, 1.0, 1.12)
@@ -70,9 +106,9 @@ def base(t):
 L = []
 def add(s, e, ly, y): L.append((s, e, ly, y))
 e = SEG[0][1]; add(0.2, e, text_layer('TU CUERPO ES', fB), 260)
-add(t_org - 2.0, SEG[1][1], text_layer('Y NO ESTÁ REPARTIDA IGUAL', fP, pill=BLUE), 300)
-add(t_org - 1.6, SEG[1][1], text_layer('Agua en cada parte del cuerpo', fS, fill=AQUA), 410)
-add(t_org - 1.0, SEG[1][1], text_layer('Fuente: USGS · Mitchell et al., 1945', fT, pill=(0, 0, 0, 140), pad=(20, 8)), 1380)
+add(t_org - 2.0, SEG[1][1], text_layer('Y NO ESTÁ REPARTIDA IGUAL', fP, pill=BLUE), 200)
+add(t_org - 1.6, SEG[1][1], text_layer('Agua en cada parte del cuerpo', fS, fill=AQUA), 310)
+add(t_org - 1.0, SEG[1][1], text_layer('Fuente: USGS · Mitchell et al., 1945', fT, pill=(0, 0, 0, 140), pad=(20, 8)), 1570)
 a, e, _ = SEG[2]; add(a + 0.1, e, text_layer('RECIÉN NACIDO', fB, fill=WHITE), 240); add(a + 2.6, e, text_layer('≈ 78% AGUA', fH, fill=AQUA), 1420)
 a, e, _ = SEG[3]
 for i, (wd_, lab) in enumerate([('respirar', 'AL RESPIRAR'), ('sudar', 'AL SUDAR'), ('moverte', 'AL MOVERTE')]): add(at(wd_) - 0.3, at('por') - 0.2, text_layer(lab, fP, pill=BLUE), 300 + i * 115)
