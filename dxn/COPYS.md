@@ -341,3 +341,31 @@ Este producto no es un medicamento. El consumo de este producto es responsabilid
 #noni #DXN #Morinzhi #jamaica #frutasexoticas #polinesia #sabiasque
 
 **Al publicar:** activa la etiqueta de contenido hecho con IA.
+
+## Reel 14 — Tu cuerpo es 60 % agua (62 s) · `reels/reel14_agua_60_por_ciento.mp4`
+
+**Texto de la publicación:**
+
+💧 ¿Sabías que más de la mitad de tu cuerpo es agua?
+
+En un adulto, alrededor del 60 %. Y no está repartida igual:
+🫁 Pulmones: ~83 %
+💪 Músculos y riñones: ~79 %
+🧠 Cerebro y corazón: ~73 %
+🦴 Huesos: ~31 %
+👶 Un recién nacido: ~78 %
+
+Todos los días la pierdes al respirar, al sudar y al moverte. El agua no se guarda: se repone.
+
+3 hábitos sencillos:
+1️⃣ Un vaso de agua al despertar
+2️⃣ Lleva tu botella contigo
+3️⃣ Si hace calor o te mueves más, toma un poco más
+
+¿Y tú, cuántos vasos de agua llevas hoy? Cuéntame 👇
+
+Fuente: USGS (Servicio Geológico de EE. UU.), con datos de Mitchell et al., 1945.
+
+#agua #hidratación #sabiasque #DXN #bienestar #hábitos
+
+**Al publicar:** activa la etiqueta de contenido hecho con IA.
