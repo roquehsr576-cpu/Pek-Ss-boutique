@@ -7,7 +7,7 @@ words = []
 for w in raw:
     if w['text'].startswith('%') and words: words[-1] = dict(words[-1], text=words[-1]['text'] + w['text'], end=w['end'])
     else: words.append(dict(w))
-T = 62.0
+T = 79.0
 def at(txt, after=0.0):
     for w in words:
         if w['start'] >= after and w['text'].lower().strip('¿?¡!.,:%') == txt: return w['start']
@@ -21,10 +21,10 @@ def splash(p): i = int(1 + clamp(p) * 236); return Image.open(f'{B}fr/splash/{i:
 grad = Image.new('RGBA', (W, H)); d = ImageDraw.Draw(grad)
 for y in range(H): d.line((0, y, W, y), fill=(int(6 + 10 * y / H), int(60 + 50 * y / H), int(120 + 60 * y / H), 255))
 emb = Embers(45, seed=4)
-t_org = at('tus'); t_beb = at('un', 20); t_per = at('y', 26); t_agu = at('el', 34); t_tres = at('tres'); t_dos = at('dos'); t_t3 = at('tres', 45); t_rec = at('el', 49); t_cuan = at('y', 53.5)
+t_org = at('tus'); t_beb = at('un', 20); t_per = at('y', 26); t_agu = at('el', 39.5); t_tres = at('tres'); t_dos = at('dos'); t_t3 = at('tres', 50.5); t_rec = at('el', 54.5); t_dato = at('y', 58.9); t_cuan = at('tú') - 0.2; t_teaser = at('quédate') - 0.15
 SEG = [(0, t_org - 2.2, 'splash'), (t_org - 2.2, t_beb - 0.15, 'organs'), (t_beb - 0.15, t_per - 0.15, 'baby'), (t_per - 0.15, t_agu - 0.15, 'w2'),
        (t_agu - 0.15, t_tres - 0.15, 'w3'), (t_tres - 0.15, t_dos - 0.15, 'w1'), (t_dos - 0.15, t_t3 - 0.15, 'w2b'), (t_t3 - 0.15, t_rec - 0.15, 'splash2'),
-       (t_rec - 0.15, t_cuan - 0.15, 'splash3'), (t_cuan - 0.15, T, 'w4')]
+       (t_rec - 0.15, t_dato - 0.15, 'splash3'), (t_dato - 0.15, t_cuan - 0.15, 'dato'), (t_cuan - 0.15, T, 'w4')]
 fH = font('Inter-ExtraBold.otf', 120); fBig = font('Inter-ExtraBold.otf', 260); fB = font('Inter-ExtraBold.otf', 84); fM = font('Inter-ExtraBold.otf', 60)
 fP = font('Inter-ExtraBold.otf', 50); fS = font('Inter-Bold.otf', 40); fT = font('Inter-Medium.otf', 28); fS2 = font('Inter-Bold.otf', 38)
 BLUE = (10, 110, 200, 235); DARK = (8, 25, 45, 215); AQUA = (120, 220, 255); WHITE = (255, 255, 255)
@@ -84,6 +84,23 @@ def drop(fr, t, s, pct, cx, cy, r):
     wd.polygon(pts, fill=(80, 200, 255, 255))
     shell = Image.new('RGBA', (W, H), (255, 255, 255, 50)); fr.alpha_composite(Image.composite(shell, Image.new('RGBA', (W, H)), m))
     fr.alpha_composite(Image.composite(water, Image.new('RGBA', (W, H)), m))
+STATES = [('SÓLIDA', 'hielo', 'sólida', 210), ('LÍQUIDA', 'agua', 'líquida', 540), ('GAS', 'vapor', 'gas', 870)]
+def estados(fr, t):
+    d = ImageDraw.Draw(fr)
+    for name, sub, wd_, x in STATES:
+        s = at(wd_) - 0.15; k = entrance(t, s, 0.5)
+        if k <= 0: continue
+        dy, sc, ang = idle(t, x, amp=6); cy = 950 + 160 * (1 - k) + dy; a = int(255 * clamp(k * 1.5)); r = 120 * (0.7 + 0.3 * k)
+        if name == 'SÓLIDA':
+            d.rounded_rectangle((x - r, cy - r, x + r, cy + r), 30, fill=(200, 240, 255, a), outline=(255, 255, 255, a), width=6)
+            d.line((x - r * 0.6, cy - r * 0.6, x - r * 0.1, cy - r * 0.6), fill=(255, 255, 255, a), width=10)
+        elif name == 'LÍQUIDA':
+            d.ellipse((x - r, cy - r * 0.4, x + r, cy + r * 1.2), fill=(80, 200, 255, a)); d.polygon([(x, cy - r * 1.3), (x - r * 0.95, cy + r * 0.25), (x + r * 0.95, cy + r * 0.25)], fill=(80, 200, 255, a))
+        else:
+            for ox, oy, rr in [(-55, 20, 70), (40, 0, 85), (0, -60, 70), (95, 40, 55), (-95, 50, 50)]:
+                d.ellipse((x + ox - rr, cy + oy - rr, x + ox + rr, cy + oy + rr), fill=(235, 245, 255, int(a * 0.9)))
+        tl = text_layer(name, fP, fill=(255, 255, 255)); place(fr, tl, x, cy + 230, 1, 0, clamp(k * 1.5))
+        tl2 = text_layer(sub, fS, fill=AQUA); place(fr, tl2, x, cy + 300, 1, 0, clamp(k * 1.5))
 def base(t):
     for a, b, n in SEG:
         if a <= t < b: break
@@ -91,6 +108,8 @@ def base(t):
     if n == 'splash': return splash((t - a) / (b - a))
     if n == 'splash2': return splash(0.55 + 0.45 * (t - a) / (b - a))
     if n == 'splash3': return splash(0.3 + 0.3 * (t - a) / (b - a))
+    if n == 'dato':
+        fr = grad.copy(); emb.draw(fr, t, color=(200, 240, 255), alpha=0.6); estados(fr, t); return fr
     if n in ('organs', 'baby'):
         fr = grad.copy(); emb.draw(fr, t, color=(200, 240, 255), alpha=0.6)
         if n == 'organs':
@@ -105,7 +124,15 @@ def base(t):
     return kb('w4', p, 1.0, 1.1)
 L = []
 def add(s, e, ly, y): L.append((s, e, ly, y))
-e = SEG[0][1]; add(0.2, e, text_layer('TU CUERPO ES', fB), 260)
+e = SEG[0][1]; add(0.2, t_teaser, text_layer('TU CUERPO ES', fB), 260)
+add(t_teaser + 0.1, e, text_layer('QUÉDATE\nAL FINAL', fH, fill=AQUA, stroke=10), 480)
+add(at('dato') - 0.1, e, text_layer('Te tengo un dato que casi nadie sabe', fS, pill=BLUE), 820)
+add(at('regular') - 0.2, t_tres - 0.2, text_layer('El dato final ya viene...', fS, pill=(200, 30, 60, 235)), 1460)
+add(at('recurso') + 0.4, t_dato - 0.15, text_layer('Ahora sí: el dato...', fS, pill=(200, 30, 60, 235)), 1460)
+a0, e0, _ = SEG[9]
+add(a0 + 0.1, e0, text_layer('EL DATO QUE', fB), 170); add(a0 + 0.5, e0, text_layer('CASI NADIE SABE', fB, fill=AQUA), 270)
+add(at('única') - 0.1, e0, text_layer('El agua es la única sustancia natural\nen la Tierra en sus 3 estados', fS, pill=BLUE), 410)
+add(at('sólida') + 0.5, e0, text_layer('Fuente: USGS', fT, pill=(0, 0, 0, 140), pad=(20, 8)), 1570)
 add(t_org - 2.0, SEG[1][1], text_layer('Y NO ESTÁ REPARTIDA IGUAL', fP, pill=BLUE), 200)
 add(t_org - 1.6, SEG[1][1], text_layer('Agua en cada parte del cuerpo', fS, fill=AQUA), 310)
 add(t_org - 1.0, SEG[1][1], text_layer('Fuente: USGS · Mitchell et al., 1945', fT, pill=(0, 0, 0, 140), pad=(20, 8)), 1570)
@@ -119,7 +146,7 @@ add(at('uno') - 0.1, t_dos - 0.15, text_layer('1', fBig, fill=AQUA, stroke=10), 
 add(t_dos - 0.1, t_t3 - 0.15, text_layer('2', fBig, fill=AQUA, stroke=10), 230); add(at('botella') - 0.4, t_t3 - 0.15, text_layer('Lleva tu botella contigo', fM, pill=DARK), 540)
 add(t_t3 - 0.1, t_rec - 0.15, text_layer('3', fBig, fill=AQUA, stroke=10), 230); add(at('calor') - 0.2, t_rec - 0.15, text_layer('Con calor o más movimiento,\ntoma un poco más', fP, pill=DARK), 540)
 a, e, _ = SEG[8]; add(a + 0.1, e, text_layer('EL AGUA', fH), 280); add(at('recurso') - 0.1, e, text_layer('el recurso natural que tu\ncuerpo usa todos los días', fP, pill=BLUE), 440)
-a = SEG[9][0]; add(at('cuántos') - 0.1, T, text_layer('¿CUÁNTOS VASOS\nLLEVAS HOY?', fB), 220); add(at('cuéntame') - 0.1, T, text_layer('Cuéntame en los comentarios', fS, pill=BLUE), 1440)
+a = SEG[10][0]; add(at('cuántos') - 0.1, T, text_layer('¿CUÁNTOS VASOS\nLLEVAS HOY?', fB), 220); add(at('cuéntame') - 0.1, T, text_layer('Cuéntame en los comentarios', fS, pill=BLUE), 1440)
 add(0.5, T, text_layer('Imágenes creadas con IA', fT, pill=(0, 0, 0, 120), pad=(18, 8)), 1866)
 logo = Image.open(R + 'clip/dxn-logo.png').convert('RGBA').resize((120, 116), Image.LANCZOS)
 lb = Image.new('RGBA', (140, 136)); m = Image.new('L', (140, 136), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, 139, 135), 22, fill=230)
@@ -133,7 +160,7 @@ for w in words:
 if cur: caps.append([cur[0]['start'], cur[-1]['end'], ' '.join(x['text'] for x in cur)])
 for i in range(len(caps) - 1): caps[i][1] = caps[i + 1][0] if caps[i + 1][0] - caps[i][1] < 0.6 else caps[i][1] + 0.25
 KEY = {'AGUA', 'CUERPO', 'MITAD', '60%', '83%', '79', '73', '31%', '78%', 'PULMONES', 'MÚSCULOS', 'RIÑONES', 'CEREBRO', 'CORAZÓN', 'HUESOS', 'BEBÉ', 'RESPIRAR', 'SUDAR',
-       'MOVERTE', 'REPONE', 'TEMPERATURA', 'ARTICULACIONES', 'VASO', 'DESPERTAR', 'BOTELLA', 'CALOR', 'RECURSO', 'NATURAL', 'VASOS', 'HOY'}
+       'MOVERTE', 'FINAL', 'DATO', 'SÓLIDA', 'LÍQUIDA', 'GAS', 'HIELO', 'VAPOR', 'ESTADOS', 'ÚNICA', 'REPONE', 'TEMPERATURA', 'ARTICULACIONES', 'VASO', 'DESPERTAR', 'BOTELLA', 'CALOR', 'RECURSO', 'NATURAL', 'VASOS', 'HOY'}
 fC = font('Inter-ExtraBold.otf', 62)
 def draw_caption(fr, txt, t, s):
     d = ImageDraw.Draw(fr); ws = txt.upper().split(); wd = [d.textlength(w + ' ', font=fC) for w in ws]
@@ -143,8 +170,8 @@ def draw_caption(fr, txt, t, s):
         d.text((x, 1700 + 30 * (1 - k)), w, font=fC, fill=col, stroke_width=6, stroke_fill=(0, 0, 0)); x += ww
 def counter(fr, t):
     s = at('60') - 0.4
-    if s <= t < SEG[0][1]:
-        k = entrance(t, s, 0.5); v = int(round(60 * ease_out_cubic(clamp((t - s) / 1.0))))
+    if s <= t < t_teaser:
+        k = entrance(t, s, 0.5) * (1 - clamp((t - t_teaser + 0.3) / 0.3)); v = int(round(60 * ease_out_cubic(clamp((t - s) / 1.0))))
         ly = text_layer(f'{v}%', fBig, fill=AQUA, stroke=12); place(fr, ly, W / 2, 620 + 80 * (1 - k), 0.8 + 0.2 * k, 0, clamp(k * 1.5))
         ly2 = text_layer('AGUA', fH, stroke=8); place(fr, ly2, W / 2, 860, 1, 0, clamp(k * 1.5))
 def compose(t):
@@ -153,7 +180,7 @@ def compose(t):
         if a <= t < a + 0.1: fr = Image.blend(fr, Image.new('RGBA', (W, H), (230, 250, 255, 255)), 0.45 * (1 - (t - a) / 0.1))
     counter(fr, t)
     for i, (s, e, ly, y) in enumerate(L): animate_in(fr, ly, t, s, W / 2, y + ly.height / 2, end=e if e < T else None, seed=i * 0.8)
-    if SEG[9][0] + 3.0 <= t: k = entrance(t, SEG[9][0] + 3.0, 0.6); dy, sc, ang = idle(t, 1, amp=5); place(fr, blg, W / 2, 1220 + 150 * (1 - k) + dy, (0.5 + 0.3 * k) * sc, ang, clamp(k * 1.4))
+    if SEG[10][0] + 3.0 <= t: k = entrance(t, SEG[10][0] + 3.0, 0.6); dy, sc, ang = idle(t, 1, amp=5); place(fr, blg, W / 2, 1220 + 150 * (1 - k) + dy, (0.5 + 0.3 * k) * sc, ang, clamp(k * 1.4))
     for s, e, txt in caps:
         if s <= t < e and t < at('cuántos') - 0.1: draw_caption(fr, txt, t, s)
     fr.alpha_composite(lb, (W - 170, 40)); return fr

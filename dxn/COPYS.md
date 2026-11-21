@@ -342,7 +342,7 @@ Este producto no es un medicamento. El consumo de este producto es responsabilid
 
 **Al publicar:** activa la etiqueta de contenido hecho con IA.
 
-## Reel 14 — Tu cuerpo es 60 % agua (62 s) · `reels/reel14_agua_60_por_ciento.mp4`
+## Reel 14 — Tu cuerpo es 60 % agua (79 s) · `reels/reel14_agua_60_por_ciento.mp4`
 
 **Texto de la publicación:**
 
@@ -361,6 +361,8 @@ Todos los días la pierdes al respirar, al sudar y al moverte. El agua no se gua
 1️⃣ Un vaso de agua al despertar
 2️⃣ Lleva tu botella contigo
 3️⃣ Si hace calor o te mueves más, toma un poco más
+
+👀 Y al final del video te dejo un dato que casi nadie sabe sobre el agua…
 
 ¿Y tú, cuántos vasos de agua llevas hoy? Cuéntame 👇
 
