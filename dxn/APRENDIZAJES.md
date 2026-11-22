@@ -1,0 +1,65 @@
+# Aprendizajes: qué funciona en los reels de DXN
+
+Guía viva. Se actualiza cada vez que Roque manda las estadísticas de un video (gráfica de retención, reproducciones de 3 s y de 1 minuto, porcentaje de no seguidores).
+
+## Resultados hasta ahora
+
+| Reel | Formato | Resultado | Lección |
+|---|---|---|---|
+| Reel 4: formas de tomar Ganoderma | Lista con números | ~13,000 vistas (el mejor) | Las listas con números retienen: la gente se queda a ver "cuál sigue". |
+| Reel 11: "Esto no es IA" (proceso real) | Fotos reales de DXN | ~5,000 vistas | Lo real genera confianza y curiosidad. |
+| Reel 14: tu cuerpo es 60 % agua | Datos + figura humana | 33 reproducciones de 3 s; la mayoría se va en el **segundo 6**; quien pasa del segundo 10 se queda hasta el final; 92.6 % no seguidores | El gancho falló: abrió con un dato que todos conocen y dio la respuesta en el segundo 6. El contenido sí gusta. |
+| Reel 16: hábitos + gansos | 3 pasos + historia de aves | Pendiente de estadísticas | Primer video con gancho que rompe expectativa ("No empieces por la comida…"). Comparar con el reel 14. |
+
+## Reglas del gancho (primeros 3 segundos)
+
+1. **Nunca abrir con un dato que todos conocen.** Abrir con el dato más sorprendente ("Tus huesos son 31 % agua") o con algo que rompa lo que la gente espera ("No empieces por la comida…").
+2. **No dar la respuesta al inicio.** Revelar poco a poco; la curiosidad abierta es lo que retiene.
+3. **La intriga va en los primeros 2 segundos**, en voz y en texto ("El último casi nadie lo sabe 👀"), no en el segundo 7.
+4. **Texto grande en pantalla desde el cuadro 1.** Mucha gente ve sin sonido.
+5. **La imagen más llamativa va primero.** Nada de tomas genéricas tipo stock al inicio.
+6. **Prometer algo concreto:** un número de pasos, de formas o un dato final.
+
+## Reglas del cuerpo del video
+
+- **Formato lista** (1, 2, 3…) con el número grande en pantalla.
+- **Cortes cada 2–4 segundos**, al ritmo de la voz o de la música.
+- **Movimiento real** (clips) mejor que fotos fijas; las fotos fijas solo con movimiento de cámara.
+- **Recordatorio a la mitad** ("El dato final ya viene…").
+- **Más de 60 s** cuando el objetivo es monetizar. Si el objetivo es alcance, 20–30 s con música pegajosa.
+
+## Audio
+
+- La voz manda; la música presente, más baja que la voz.
+- La música sube de forma fluida en las pausas y al final sin voz.
+- Voces que ya usamos: Diana (mujer, cálida), El Faraón 3 (hombre, grave y cálido).
+
+## Contenido y reglas (sin cambios)
+
+- Sin promesas de salud ni testimonios de curación. Sin "no necesitas medicamentos".
+- Datos reales con fuente en pantalla. Nunca cifras inventadas: los comentarios las desmienten (caso del reel de los caballos y las hormigas).
+- El negocio solo por mensaje privado. Sin hablar de dinero ni de multinivel.
+- Etiqueta de IA cuando hay personas o escenas generadas.
+- Antes de gastar créditos, mostrar la propuesta y esperar el OK de Roque.
+
+## Lista de revisión antes de cada video
+
+- [ ] ¿Los primeros 3 segundos sorprenden o rompen una expectativa?
+- [ ] ¿Hay texto grande desde el cuadro 1?
+- [ ] ¿La intriga ("quédate al final") está antes del segundo 3?
+- [ ] ¿Es una lista o tiene una promesa concreta?
+- [ ] ¿Hay movimiento real en las tomas principales?
+- [ ] ¿Los datos tienen fuente real?
+- [ ] ¿Cero promesas de salud?
+- [ ] ¿La música está balanceada con la voz?
+- [ ] ¿Roque aprobó la propuesta antes de gastar créditos?
+
+## Qué medir en cada video
+
+Que Roque mande, unos 2–3 días después de publicar, la captura de estadísticas del reel:
+1. **En qué segundo se va la mayoría** (gráfica de retención).
+2. **Reproducciones de 3 s y de 1 minuto.**
+3. **Porcentaje de no seguidores** (si es alto, Facebook lo está empujando a gente nueva).
+4. **Comentarios y compartidos.**
+
+Con eso se actualiza la tabla de resultados y se ajusta la siguiente idea.
