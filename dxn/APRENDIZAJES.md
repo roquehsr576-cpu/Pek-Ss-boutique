@@ -46,6 +46,7 @@ Guía viva. Se actualiza cada vez que Roque manda las estadísticas de un video 
 
 - [ ] ¿Los primeros 3 segundos sorprenden o rompen una expectativa?
 - [ ] ¿Hay texto grande desde el cuadro 1?
+- [ ] ¿Ningún texto tapa la cara de una persona?
 - [ ] ¿La intriga ("quédate al final") está antes del segundo 3?
 - [ ] ¿Es una lista o tiene una promesa concreta?
 - [ ] ¿Hay movimiento real en las tomas principales?
@@ -63,3 +64,9 @@ Que Roque mande, unos 2–3 días después de publicar, la captura de estadísti
 4. **Comentarios y compartidos.**
 
 Con eso se actualiza la tabla de resultados y se ajusta la siguiente idea.
+
+## Texto en pantalla
+
+- **Nunca tapar la cara de las personas.** El texto va donde se lea y no estorbe: arriba, abajo o en la zona vacía de la toma.
+- La edición detecta las caras automáticamente (`face_boxes` y `safe_zone` en `scripts/motion.py`) y mueve los textos de cada escena a la franja libre.
+- Revisar en la vista previa que ningún texto quede sobre una cara antes de renderizar.

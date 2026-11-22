@@ -149,3 +149,24 @@ def animate_in(frame, layer, t, start, cx, cy, end=None, seed=0.0, rise=80):
     dy, sc, ang = idle(t, seed, amp=4)
     place(frame, layer, cx, cy + rise * (1 - k) + dy, (0.85 + 0.15 * k) * sc, ang * 0.5, a)
     return frame
+
+# --- Colocación de texto sin tapar caras ---
+_FACE = None
+def face_boxes(img):
+    """Caras (x0, y0, x1, y1) en una imagen PIL de 1080x1920."""
+    global _FACE
+    import cv2, numpy as np
+    if _FACE is None: _FACE = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+    g = cv2.cvtColor(np.array(img.convert('RGB').resize((540, 960))), cv2.COLOR_RGB2GRAY)
+    fs = _FACE.detectMultiScale(g, scaleFactor=1.1, minNeighbors=6, minSize=(40, 40))
+    return [(2 * x, 2 * y, 2 * (x + w), 2 * (y + h)) for x, y, w, h in fs]
+ZONES = [(160, 620), (1180, 1620), (620, 1180)]  # arriba, abajo (sobre subtítulos), centro
+def safe_zone(frames, need=360, margin=60):
+    """Elige la franja vertical (y0) para el texto que no choque con ninguna cara en los cuadros dados."""
+    boxes = [b for f in frames for b in face_boxes(f)]
+    for z0, z1 in ZONES:
+        if z1 - z0 < need: continue
+        if not any(b[1] - margin < z0 + need and b[3] + margin > z0 for b in boxes): return z0
+    if not boxes: return ZONES[0][0]
+    top = min(b[1] for b in boxes)
+    return 160 if top > 160 + need else 1240

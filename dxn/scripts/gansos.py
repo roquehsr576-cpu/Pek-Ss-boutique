@@ -83,6 +83,25 @@ add(0.5, T, text_layer('Imágenes creadas con IA', fT, pill=(0, 0, 0, 110), pad=
 pack = Image.open(R + 'carrusel/prod/black.png').convert('RGBA'); pack.thumbnail((330, 430), Image.LANCZOS)
 logo = Image.open(R + 'clip/dxn-logo.png').convert('RGBA').resize((110, 106), Image.LANCZOS)
 lb = Image.new('RGBA', (130, 126)); m = Image.new('L', (130, 126), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, 129, 125), 20, fill=230); lb.paste((255, 255, 255, 255), (0, 0), m); lb.alpha_composite(logo, (10, 10))
+# --- mover textos que tapan caras ---
+SHIFT = {}
+for a, b, k, f0, f1 in SEG:
+    if k not in FR: continue
+    frs = [Image.open(f'{FR[k]}/{max(1, min(237, int(f0 + (f1 - f0) * q))):04d}.jpg') for q in (0.1, 0.5, 0.9)]
+    boxes = [bx for f in frs for bx in face_boxes(f)]
+    if not boxes: continue
+    idx = [i for i, (st, e, ly, y) in enumerate(L) if a - 0.3 <= st < b and y < 1650]
+    if not idx: continue
+    hit = any(any(bx[1] - 40 < L[i][3] + L[i][2].height and bx[3] + 40 > L[i][3] for bx in boxes) for i in idx)
+    if not hit: continue
+    y0 = min(L[i][3] for i in idx); y1 = max(L[i][3] + L[i][2].height for i in idx); need = y1 - y0
+    free = None
+    for z in list(range(140, 1660 - need, 20)):
+        if not any(bx[1] - 40 < z + need and bx[3] + 40 > z for bx in boxes): free = z; break
+    if free is None: free = 1640 - need
+    for i in idx: SHIFT[i] = free - y0
+L = [(st, e, ly, y + SHIFT.get(i, 0)) for i, (st, e, ly, y) in enumerate(L)]
+print('textos movidos:', len(SHIFT), file=sys.stderr)
 caps = []; cur = []
 for w in words:
     cur.append(w)

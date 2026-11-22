@@ -65,3 +65,7 @@ Cuando la escena "se queda quieta" (el texto ya entró y se está leyendo), nada
 - Subtítulos palabra por palabra con palabras clave en amarillo.
 - Cierre con el empaque oficial, "Escríbeme por mensaje" y la leyenda de COFEPRIS.
 - Textos según `POLITICAS.md`. Etiqueta de IA activada al publicar.
+
+## Textos y caras
+
+- Los textos nunca tapan caras. Usar `face_boxes()` / `safe_zone()` de `motion.py` para elegir la franja libre de cada escena.
