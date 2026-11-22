@@ -438,3 +438,30 @@ Mi momento de afilar el hacha: 10 minutos de lectura con mi café de Ganoderma �
 Mándale este video a esa persona que está cortando… con el hacha sin filo. 📲
 
 #AfilaTuHacha #Mentalidad #CrecimientoPersonal #Hábitos #DXN #Motivación
+
+### Reel 14 v3 (gancho nuevo) · `reels/reel14_agua_v3_gancho_huesos.mp4` (82 s)
+
+Versión mejorada tras ver la gráfica de retención (la gente se iba en el segundo 6). Abre con "Hasta tus huesos… 31 % agua" y la intriga del dato final a los 3 segundos.
+
+**Texto de la publicación (Instagram):**
+
+🦴 Tus huesos son 31 % agua.
+Y eso no es lo más sorprendente… 👀 quédate al final.
+
+🫁 Pulmones: ~83 %
+💪 Músculos y riñones: ~79 %
+🧠 Cerebro y corazón: ~73 %
+👶 Un recién nacido: ~78 %
+
+El agua no se guarda: se repone. 💧
+1️⃣ Un vaso al despertar
+2️⃣ Tu botella siempre contigo
+3️⃣ Con calor o más movimiento, un poco más
+
+¿Cuántos vasos llevas hoy? 👇
+
+📚 Fuente: Servicio Geológico de EE. UU. (USGS)
+
+#agua #hidratación #sabiasque #DXN #hábitos #bienestar
+
+**Al publicar:** activa la etiqueta de contenido hecho con IA.

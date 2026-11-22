@@ -9,6 +9,7 @@ Guía viva. Se actualiza cada vez que Roque manda las estadísticas de un video 
 | Reel 4: formas de tomar Ganoderma | Lista con números | ~13,000 vistas (el mejor) | Las listas con números retienen: la gente se queda a ver "cuál sigue". |
 | Reel 11: "Esto no es IA" (proceso real) | Fotos reales de DXN | ~5,000 vistas | Lo real genera confianza y curiosidad. |
 | Reel 14: tu cuerpo es 60 % agua | Datos + figura humana | 33 reproducciones de 3 s; la mayoría se va en el **segundo 6**; quien pasa del segundo 10 se queda hasta el final; 92.6 % no seguidores | El gancho falló: abrió con un dato que todos conocen y dio la respuesta en el segundo 6. El contenido sí gusta. |
+| Reel 14 v3: agua con gancho nuevo | Abre con "Tus huesos son 31 % agua" + intriga a los 3 s | Pendiente (Instagram) | Prueba directa de la lección del reel 14: comparar su gráfica con la de la v1. |
 | Reel 16: hábitos + gansos | 3 pasos + historia de aves | Pendiente de estadísticas | Primer video con gancho que rompe expectativa ("No empieces por la comida…"). Comparar con el reel 14. |
 
 ## Reglas del gancho (primeros 3 segundos)
