@@ -72,3 +72,9 @@ Meta pide etiquetar los videos e imágenes realistas creados con IA. Al subir, a
 - Reglas de promociones en páginas: https://www.facebook.com/policies/pages_groups_events
 - Engagement bait y recomendaciones: https://transparency.meta.com (buscar "engagement bait")
 - Normas de publicidad: https://transparency.meta.com/policies/ad-standards
+
+## Regla de trabajo: créditos
+
+- Antes de gastar créditos (kie.ai, Higgsfield, vidIQ o ElevenLabs para generar), mostrar a Roque la propuesta (guion, prompts, voz, estilo) y esperar su OK.
+- Los ajustes de edición y mezcla de audio no gastan créditos: se pueden hacer directo y mostrar el resultado.
+- Mezcla de audio preferida: música presente y balanceada; baja suave cuando habla la voz y sube de forma fluida en las pausas.
