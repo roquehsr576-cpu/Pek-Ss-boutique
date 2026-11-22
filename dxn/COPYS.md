@@ -392,3 +392,26 @@ Más que un café: una comunidad. ☕❤️
 📸 Fotos reales: galería oficial DXN Latinoamérica.
 
 #DXN #ComunidadDXN #Ganoderma #Eventos #Viajes #Capacitación
+
+## Reel 16 — 3 pasos para cambiar tus hábitos + la lección de los gansos (79 s) · `reels/reel16_habitos_gansos.mp4`
+
+**Texto de la publicación:**
+
+Nadie encuentra su paraíso… sin antes cruzar su desierto. 🏜️➡️🌴
+
+3 pasos para cambiar tus hábitos:
+1️⃣ Cuida lo que consumes: lo que comes, lo que ves y lo que escuchas
+2️⃣ Elige comida real (y no olvides el agua 💧)
+3️⃣ Aguanta el proceso: cambiar es incómodo, pero vale la pena
+
+🪿 ¿Y los gansos? Vuelan en V porque cada ave aprovecha el aire que mueve la de adelante y gasta menos energía. Y se turnan el lugar de enfrente, el más pesado. Nadie compite: se cuidan.
+
+El trabajo en equipo rinde más frutos que el esfuerzo en solitario. No compitas por envidia: cuida a tus socios, amigos y familia. Un equipo sólido vale más que cualquier cosa. 🤝
+
+¿Y tú, quién es tu equipo? Cuéntame 👇
+
+📚 Fuentes: Weimerskirch et al., Nature 2001 · Portugal et al., Nature 2014 · Voelkl et al., PNAS 2015.
+
+#Hábitos #TrabajoEnEquipo #Motivación #DXN #Ganoderma #Mentalidad
+
+**Al publicar:** activa la etiqueta de contenido hecho con IA.
