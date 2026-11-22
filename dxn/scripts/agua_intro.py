@@ -2,7 +2,7 @@ import sys, json, subprocess, math
 sys.path.insert(0, '/tmp/claude-0/-home-user-Pek-Ss-boutique/f5892703-9636-54fe-89dd-0efcb8a15e5f/scripts')
 from motion import *
 R = '/tmp/claude-0/-home-user-Pek-Ss-boutique/f5892703-9636-54fe-89dd-0efcb8a15e5f/'; B = R + 'agua/'
-HK = 2.61; G1 = 0.35; TZ = 4.96; T = HK + G1 + TZ + 0.35; T2 = HK + G1
+T = 10.75; T2 = 4.0
 grad = Image.new('RGBA', (W, H)); d = ImageDraw.Draw(grad)
 for y in range(H): d.line((0, y, W, y), fill=(int(6 + 10 * y / H), int(60 + 50 * y / H), int(120 + 60 * y / H), 255))
 emb = Embers(45, seed=4)
@@ -21,13 +21,15 @@ for i in range(5): BONES.append((FX - 70 * s, cy + (90 + 45 * i) * s, FX + 70 * 
 fH = font('Inter-ExtraBold.otf', 120); fB = font('Inter-ExtraBold.otf', 84); fBig = font('Inter-ExtraBold.otf', 230); fS = font('Inter-Bold.otf', 42); fT = font('Inter-Medium.otf', 28)
 AQUA = (120, 220, 255); BLUE = (10, 110, 200, 235); RED = (200, 30, 60, 235)
 def splash(p): i = int(1 + clamp(p) * 236); return Image.open(f'{B}fr/splash/{i:04d}.jpg').convert('RGBA')
-L = [(0.0, T2, text_layer('TUS HUESOS SON', font('Inter-ExtraBold.otf', 66), stroke=7), 110), (0.35, T2, text_layer('31%', fBig, fill=AQUA, stroke=12), 190), (0.6, T2, text_layer('AGUA', fH, stroke=8), 430),
+L = [(0.05, T2, text_layer('TUS HUESOS SON', font('Inter-ExtraBold.otf', 66), stroke=7), 110), (2.2, T2, text_layer('31%', fBig, fill=AQUA, stroke=12), 190), (2.9, T2, text_layer('AGUA', fH, stroke=8), 430),
      (0.3, T2, text_layer('Fuente: USGS · Mitchell et al., 1945', fT, pill=(0, 0, 0, 140), pad=(20, 8)), 1640),
-     (T2, T, text_layer('QUÉDATE\nAL FINAL', fH, fill=AQUA, stroke=10), 420), (T2 + 2.2, T, text_layer('El dato final casi nadie lo sabe', fS, pill=RED), 800)]
+     (4.3, T, text_layer('Y eso no es lo más sorprendente...', fS, pill=(10, 60, 110, 230)), 300),
+     (6.7, T, text_layer('QUÉDATE\nAL FINAL', fH, fill=AQUA, stroke=10), 420), (8.5, T, text_layer('El dato final casi nadie lo sabe', fS, pill=RED), 800)]
 logo = Image.open(R + 'clip/dxn-logo.png').convert('RGBA').resize((120, 116), Image.LANCZOS)
 lb = Image.new('RGBA', (140, 136)); m = Image.new('L', (140, 136), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, 139, 135), 22, fill=230); lb.paste((255, 255, 255, 255), (0, 0), m); lb.alpha_composite(logo, (10, 10))
-CAPS = [(0.0, HK, 'HASTA TUS HUESOS, 31%'), (T2, T2 + 1.6, 'Y QUÉDATE HASTA EL FINAL...'), (T2 + 1.85, T2 + 3.4, 'PORQUE TE TENGO UN DATO'), (T2 + 3.4, T, 'QUE CASI NADIE SABE.')]
-KEY = {'HUESOS,', '31%', 'FINAL...', 'DATO', 'NADIE'}
+CAPS = [(0.0, 1.9, '¿SABÍAS QUE TUS HUESOS'), (1.9, 3.8, 'SON 31% AGUA?'), (4.35, 5.3, 'Y ESO NO ES LO MÁS'), (5.3, 6.4, 'SORPRENDENTE.'), (6.73, 8.3, 'QUÉDATE AL FINAL,'),
+        (8.3, 9.3, 'PORQUE TE TENGO UN DATO'), (9.3, T, 'QUE CASI NADIE SABE.')]
+KEY = {'HUESOS', '31%', 'AGUA?', 'SORPRENDENTE.', 'FINAL,', 'DATO', 'NADIE'}
 fC = font('Inter-ExtraBold.otf', 62)
 def compose(t):
     if t < T2:

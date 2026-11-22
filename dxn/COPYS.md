@@ -439,9 +439,9 @@ Mándale este video a esa persona que está cortando… con el hacha sin filo. �
 
 #AfilaTuHacha #Mentalidad #CrecimientoPersonal #Hábitos #DXN #Motivación
 
-### Reel 14 v3 (gancho nuevo) · `reels/reel14_agua_v3_gancho_huesos.mp4` (82 s)
+### Reel 14 v3 (gancho nuevo) · `reels/reel14_agua_v3_gancho_huesos.mp4` (84 s)
 
-Versión mejorada tras ver la gráfica de retención (la gente se iba en el segundo 6). Abre con "Hasta tus huesos… 31 % agua" y la intriga del dato final a los 3 segundos.
+Versión mejorada tras ver la gráfica de retención (la gente se iba en el segundo 6). Abre con "¿Sabías que tus huesos son 31 % agua? Y eso no es lo más sorprendente…" (voz nueva, sin cortes) y la intriga del dato final a los 3 segundos.
 
 **Texto de la publicación (Instagram):**
 
