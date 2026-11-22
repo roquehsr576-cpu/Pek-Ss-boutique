@@ -69,3 +69,9 @@ Cuando la escena "se queda quieta" (el texto ya entró y se está leyendo), nada
 ## Textos y caras
 
 - Los textos nunca tapan caras. Usar `face_boxes()` / `safe_zone()` de `motion.py` para elegir la franja libre de cada escena.
+
+## Estilo pizarra (mano dibujando)
+
+- Script: `scripts/pizarra.py`. Mano con gis: `fuentes/pizarra/mano.png` (se reutiliza).
+- Sin sonido de gis: solo la mano dibujando, con música de fondo (y voz si el video la lleva).
+- Letra de gis: Kalam (con acentos). Cada escena necesita un dibujo en línea blanca sobre fondo negro (~6 créditos de kie.ai).
