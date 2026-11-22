@@ -416,3 +416,25 @@ Mándale este video a esa persona: un equipo se hace más fuerte cuando alguien 
 #Hábitos #TrabajoEnEquipo #Motivación #DXN #Ganoderma #Mentalidad
 
 **Al publicar:** activa la etiqueta de contenido hecho con IA.
+
+## Reel 17 — Afila tu hacha (80 s, estilo pizarra, voz El Faraón) · `reels/reel17_afila_tu_hacha.mp4`
+
+**Texto de la publicación:**
+
+Trabajaba más horas que nadie… y cada día cortaba menos árboles. 🪓
+
+No le faltaba esfuerzo. **Le faltaba filo.**
+
+5 formas de afilar tu hacha:
+1️⃣ 10 minutos al día de aprender algo de lo tuyo 📖
+2️⃣ Pregúntale a quien ya lo logró 🤝
+3️⃣ Si algo no funciona, no lo repitas igual 🔍
+4️⃣ Descansa: hasta la mejor hacha se desgasta 🌙
+5️⃣ Rodéate de gente que te afile 👥
+
+Mi momento de afilar el hacha: 10 minutos de lectura con mi café de Ganoderma ☕
+
+¿Cuál vas a empezar hoy?
+Mándale este video a esa persona que está cortando… con el hacha sin filo. 📲
+
+#AfilaTuHacha #Mentalidad #CrecimientoPersonal #Hábitos #DXN #Motivación
