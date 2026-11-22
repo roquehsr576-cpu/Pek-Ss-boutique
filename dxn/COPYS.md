@@ -393,7 +393,7 @@ Más que un café: una comunidad. ☕❤️
 
 #DXN #ComunidadDXN #Ganoderma #Eventos #Viajes #Capacitación
 
-## Reel 16 — 3 pasos para cambiar tus hábitos + la lección de los gansos (81 s, voz El Faraón) · `reels/reel16_habitos_gansos.mp4`
+## Reel 16 — 3 pasos para cambiar tus hábitos + la lección de los gansos (88 s, voz El Faraón) · `reels/reel16_habitos_gansos.mp4`
 
 **Texto de la publicación:**
 
@@ -408,7 +408,8 @@ Más que un café: una comunidad. ☕❤️
 
 El trabajo en equipo rinde más frutos que el esfuerzo en solitario. No compitas por envidia: cuida a tus socios, amigos y familia. Un equipo sólido vale más que cualquier cosa. 🤝
 
-¿Y tú, quién es tu equipo? Cuéntame 👇
+Yo ya sé con quién voy a hacer equipo. ¿Y tú? 🪿
+Mándale este video a esa persona: un equipo se hace más fuerte cuando alguien da el primer paso. 🤝
 
 📚 Fuentes: Weimerskirch et al., Nature 2001 · Portugal et al., Nature 2014 · Voelkl et al., PNAS 2015.
 

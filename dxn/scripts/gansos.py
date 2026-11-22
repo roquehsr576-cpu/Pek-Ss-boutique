@@ -2,7 +2,7 @@ import sys, json, subprocess, math
 sys.path.insert(0, '/tmp/claude-0/-home-user-Pek-Ss-boutique/f5892703-9636-54fe-89dd-0efcb8a15e5f/scripts')
 from motion import *
 R = '/tmp/claude-0/-home-user-Pek-Ss-boutique/f5892703-9636-54fe-89dd-0efcb8a15e5f/'; B = R + 'gansos/'
-words = [w for w in json.load(open(B + 'words3.json'))['words'] if w.get('type') == 'word']
+words = [w for w in json.load(open(B + 'words4.json'))['words'] if w.get('type') == 'word']
 T = math.ceil(words[-1]['end'] + 4.0)
 def at(txt, after=0.0):
     for w in words:
@@ -17,7 +17,7 @@ def kb(k, p, z0, z1, oy=0.0):
     x = (base.width - W) / 2; y = (base.height - H) / 2 + oy * (base.height - H) * (p - 0.5)
     return base.crop((int(x), int(y), int(x) + W, int(y) + H)).convert('RGBA')
 t1 = at('paso'); t2 = at('paso', t1 + 1); t3 = at('paso', t2 + 1); tav = at('y', at('desierto')); tal = at('al', at('midieron')); tse = at('se', at('energía')); tas = at('así'); tno = at('no', at('solitario'))
-tun = at('un', at('familia')); tyo = at('yo'); tq = at('y', at('volar', tyo)); tnad = at('nadie', t3)
+tun = at('un', at('familia')); tyo = at('yo'); tq = at('yo', at('volar', tyo)); tnad = at('nadie', t3)
 SEG = [(0, at('son') - 0.2, 'des', 1, 140), (at('son') - 0.2, t1 - 0.2, 'gv', 1, 120),
        (t1 - 0.2, t2 - 0.2, 'cel', 1, 237), (t2 - 0.2, t3 - 0.2, 'com', 1, 237),
        (t3 - 0.2, tnad - 0.2, 'mon', 1, 237), (tnad - 0.2, tav - 0.2, 'des', 120, 237), (tav - 0.2, tal - 0.2, 'gv', 1, 150), (tal - 0.2, tse - 0.2, 'diag', 0, 0), (tse - 0.2, tas - 0.2, 'gc', 1, 237),
@@ -75,7 +75,10 @@ add(tas + 1.2, tno - 0.2, text_layer('EL TRABAJO EN EQUIPO', fM, stroke=7), 220)
 add(tno - 0.1, tun - 0.2, text_layer('NO COMPITAS POR ENVIDIA', fM, stroke=7), 220); add(at('cuida', tno) - 0.2, tun - 0.2, text_layer('Cuida a tus socios,\namigos y familia', fP, pill=GREEN), 330)
 add(tun - 0.1, tyo - 0.2, text_layer('UN EQUIPO SÓLIDO', fB, fill=GOLD, stroke=8), 220); add(at('vale', tun) - 0.2, tyo - 0.2, text_layer('vale más que cualquier cosa', fP, pill=DARK), 350)
 add(at('café', tyo) - 0.2, tq - 0.2, text_layer('Mi momento antes de salir a volar', fS, pill=DARK), 1300)
-add(tq - 0.1, T, text_layer('¿Y TÚ, QUIÉN ES\nTU EQUIPO?', fB, stroke=8), 240); add(at('cuéntame') - 0.1, T, text_layer('Cuéntame en los comentarios', fS, pill=RED), 1440)
+add(tq - 0.1, at('tú', tq) - 0.2, text_layer('YO YA SÉ CON QUIÉN\nVOY A HACER EQUIPO', fB, stroke=8), 240)
+add(at('tú', tq) - 0.1, T, text_layer('¿Y TÚ?', fH, fill=GOLD, stroke=10), 240)
+add(at('mándale') - 0.1, T, text_layer('Mándale este video\na esa persona', fM, stroke=7), 420)
+add(at('porque', at('mándale')) - 0.1, T, text_layer('Un equipo se hace más fuerte cuando\nalguien da el primer paso', fS, pill=RED), 1400)
 add(0.5, T, text_layer('Imágenes creadas con IA', fT, pill=(0, 0, 0, 110), pad=(16, 7)), 1866)
 pack = Image.open(R + 'carrusel/prod/black.png').convert('RGBA'); pack.thumbnail((330, 430), Image.LANCZOS)
 logo = Image.open(R + 'clip/dxn-logo.png').convert('RGBA').resize((110, 106), Image.LANCZOS)
@@ -104,7 +107,7 @@ def compose(t):
         k = entrance(t, at('café', tyo) - 0.1, 0.5); dy, sc, ang = idle(t, 1, amp=6); place(fr, pack, W - 220, 1110 + 160 * (1 - k) + dy, (0.75 + 0.25 * k) * sc, ang + 5, clamp(k * 1.4))
     for i, (s, e, ly, y) in enumerate(L): animate_in(fr, ly, t, s, W / 2, y + ly.height / 2, end=e if e < T else None, seed=i * 0.8)
     for s, e, txt in caps:
-        if s <= t < e and t < tq - 0.2: draw_caption(fr, txt, t, s)
+        if s <= t < e and t < at('porque', at('mándale')) - 0.2: draw_caption(fr, txt, t, s)
     fr.alpha_composite(lb, (W - 160, 40)); return fr
 if sys.argv[1] == 'preview':
     ts = [float(x) for x in sys.argv[2].split(',')]; ims = [compose(t).convert('RGB').resize((216, 384)) for t in ts]
