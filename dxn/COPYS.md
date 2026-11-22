@@ -371,3 +371,24 @@ Fuente: USGS (Servicio Geológico de EE. UU.), con datos de Mitchell et al., 194
 #agua #hidratación #sabiasque #DXN #bienestar #hábitos
 
 **Al publicar:** activa la etiqueta de contenido hecho con IA.
+
+## Reel 15 — Vive DXN (28 s) · `reels/reel15_vive_dxn.mp4`
+
+Fotos reales de la galería oficial de DXN Latinoamérica (18 y 12 Aniversario México, ITSI 2019, capacitación 2019) al ritmo de "Playful Caribbean Vibe" (Suno, de Roque).
+
+**Texto de la publicación:**
+
+Esto es lo que nadie te cuenta de DXN… 👀
+
+🎉 Eventos que se viven en grande
+✈️ Viajes que no olvidas
+📚 Capacitaciones donde aprendes cada día
+👑 Reconocimientos que se celebran juntos
+
+Más que un café: una comunidad. ☕❤️
+
+¿Te gustaría vivirlo? Escríbeme 📩
+
+📸 Fotos reales: galería oficial DXN Latinoamérica.
+
+#DXN #ComunidadDXN #Ganoderma #Eventos #Viajes #Capacitación
