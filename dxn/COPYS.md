@@ -542,3 +542,23 @@ Archivo: `reels/gano04_donde_crece.mp4` (64 s, voz El Faraón 3, sin logo, músi
 > #Ganoderma #Hongos #Naturaleza #México #Tabasco #DXN #SabíasQue #DatosCuriosos
 
 Fuentes: Wikipedia "Ganoderma lucidum"; UF/IFAS "Ganoderma"; Encyclopedia.com; Revista Mexicana de Biodiversidad (2023), registros de Ganoderma para México y Tabasco; Revista Mexicana de Micología v36.
+
+## Ganoderma ep. 5: "Lo que nadie te dice del Ganoderma: el polvo café"
+
+Archivo: `reels/gano05_polvo_cafe.mp4` (63 s, voz El Faraón 3, sin logo, música caribe_1). Respuesta escondida hasta el segundo 13 y pregunta a la mitad (lecciones del ep. 1).
+
+> Este hongo suelta un polvo café… ¿sabes qué es? 🤔
+>
+> Un Ganoderma maduro puede cubrir todo a su alrededor —hojas, tronco, hasta su propio sombrero— con un polvo café, como si fuera cacao. No es tierra. Ni moho.
+>
+> 👇 La respuesta está en el video.
+>
+> Serie "Lo que nadie te dice de…" · Episodio 5
+>
+> ¿Tú ya habías visto este polvo? 👇
+>
+> #Ganoderma #Hongos #Esporas #Naturaleza #DXN #SabíasQue #DatosCuriosos #Ciencia
+
+Comentario fijado: "¿Tú ya habías visto este polvo café? 👇"
+
+Fuentes: Hong Kong Chinese Materia Medica Standards vol. 9 (Ganoderma); Wikipedia "Ganoderma"; Arora, *Mushrooms Demystified* (1986), citado por Wayne's Word y apuntes de botánica; Pacific Forestry Centre (G. applanatum).
