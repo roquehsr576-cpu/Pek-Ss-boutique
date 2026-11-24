@@ -71,3 +71,19 @@ Al final, el dato que casi nadie sabe. 👀
 ## Nota
 - Las imágenes 01, 03, 04, 06, 07 y 08 usan escenas hechas con IA: activa la etiqueta de IA al publicar en Meta.
 - Al terminar la prueba, comparar alcance y "no seguidores" contra las publicaciones con logo.
+
+## Carrusel "La historia del ruyi" (`carrusel_ruyi/1-4`, sin logo)
+
+Imagina la China de hace 300 años. 🏮
+
+Un artesano pasa meses tallando una pieza de jade para el cumpleaños del emperador. No es una joya ni una espada: es un **ruyi**, un cetro con la punta en forma de hongo lingzhi.
+
+El día de la fiesta, lo entrega con una reverencia. No dice nada… no hace falta. El cetro ya lo dice todo: **"que todo sea como desees"**. ✨
+
+Siglos después, piezas así están en el Met de Nueva York o en el Museo del Palacio en Taipéi… y casi nadie sabe que está viendo un hongo. 🍄
+
+¿Habías visto esta forma en algún adorno? 👇
+
+#Ganoderma #Lingzhi #ArteChino #DXN #SabíasQue #Historia #Cultura
+
+Nota: la escena del artesano es ilustrativa ("imagina…"); los datos del ruyi y los museos están verificados (ver COPYS.md, ep. 3).
