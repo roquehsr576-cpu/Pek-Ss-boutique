@@ -465,3 +465,18 @@ El agua no se guarda: se repone. 💧
 #agua #hidratación #sabiasque #DXN #hábitos #bienestar
 
 **Al publicar:** activa la etiqueta de contenido hecho con IA.
+
+## Ganoderma ep. 1: "Lo que nadie te dice del Ganoderma: NO es una planta"
+
+Archivo: `reels/gano01_no_es_una_planta.mp4` (44 s, voz El Faraón 3, sin logo)
+
+> Mucha gente le dice "hierba"… pero el Ganoderma es un HONGO. 🍄
+>
+> Su nombre viene del griego: ganos (brillo) + derma (piel) = piel brillante. ✨
+> Y los hongos están más emparentados con los animales que con las plantas: no hacen fotosíntesis, se alimentan de la madera y sus paredes tienen quitina, el mismo material del caparazón de los escarabajos. 🪲
+>
+> Serie "Lo que nadie te dice de…" · Episodio 1
+>
+> ¿Tú sabías que era un hongo? 👇
+>
+> #Ganoderma #Reishi #DXN #Hongos #SabíasQue #DatosCuriosos
