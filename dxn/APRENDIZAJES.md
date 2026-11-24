@@ -11,17 +11,20 @@ Guía viva. Se actualiza cada vez que Roque manda las estadísticas de un video 
 | Reel 14: tu cuerpo es 60 % agua | Datos + figura humana | 33 reproducciones de 3 s; la mayoría se va en el **segundo 6**; quien pasa del segundo 10 se queda hasta el final; 92.6 % no seguidores | El gancho falló: abrió con un dato que todos conocen y dio la respuesta en el segundo 6. El contenido sí gusta. |
 | Reel 14 v3: agua con gancho nuevo | Abre con "Tus huesos son 31 % agua" + intriga a los 3 s | Pendiente (Instagram) | Prueba directa de la lección del reel 14: comparar su gráfica con la de la v1. |
 | Reel 16: hábitos + gansos | 3 pasos + historia de aves | Pendiente de estadísticas | Primer video con gancho que rompe expectativa ("No empieces por la comida…"). Comparar con el reel 14. |
+| Ganoderma ep. 1: "NO es una planta" (44 s) | Ilustraciones 3D + voz Faraón 3 | A las 8 h: **1,543 visualizaciones (~7× lo normal)**, 503 reproducciones de 3 s, 25 compartidos, 40 reacciones, **0 comentarios**, 97.3 % no seguidores, +3 seguidores. Promedio 12 s (27 %); 14.6 % pasa del segundo 20; **la mayoría se va en el segundo 4** | La portada daba la respuesta ("Y ES UN HONGO") y la voz la confirmaba en el segundo 4.6: misma falla que el reel 14. El tema sí se comparte mucho. La pregunta final casi nadie la oye: ponerla también a la mitad o fijarla como comentario. |
 
 ## Reglas del gancho (primeros 3 segundos)
 
 1. **Nunca abrir con un dato que todos conocen.** Abrir con el dato más sorprendente ("Tus huesos son 31 % agua") o con algo que rompa lo que la gente espera ("No empieces por la comida…").
-2. **No dar la respuesta al inicio.** Revelar poco a poco; la curiosidad abierta es lo que retiene.
+2. **No dar la respuesta al inicio, ni en la portada.** Revelar poco a poco; la curiosidad abierta es lo que retiene. (Confirmado otra vez en Ganoderma ep. 1: la portada decía "Y ES UN HONGO" y la gente se fue en el segundo 4.)
 3. **La intriga va en los primeros 2 segundos**, en voz y en texto ("El último casi nadie lo sabe 👀"), no en el segundo 7.
 4. **Texto grande en pantalla desde el cuadro 1.** Mucha gente ve sin sonido.
 5. **La imagen más llamativa va primero.** Nada de tomas genéricas tipo stock al inicio.
 6. **Prometer algo concreto:** un número de pasos, de formas o un dato final.
 
 ## Reglas del cuerpo del video
+
+- **Pregunta abierta también a la mitad** (no solo al final): solo ~15 % llega al segundo 20, así que la pregunta del cierre casi nadie la escucha. Además, fijar la pregunta como primer comentario.
 
 - **Formato lista** (1, 2, 3…) con el número grande en pantalla.
 - **Cortes cada 2–4 segundos**, al ritmo de la voz o de la música.
