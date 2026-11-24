@@ -480,3 +480,24 @@ Archivo: `reels/gano01_no_es_una_planta.mp4` (44 s, voz El Faraón 3, sin logo)
 > ¿Tú sabías que era un hongo? 👇
 >
 > #Ganoderma #Reishi #DXN #Hongos #SabíasQue #DatosCuriosos
+
+## Ganoderma ep. 2: "Lo que nadie te dice del Ganoderma: sus tres nombres"
+
+Archivo: `reels/gano02_tres_nombres.mp4` (33 s, voz El Faraón 3, sin logo)
+
+> Un mismo hongo… tres países, tres nombres. 🍄
+>
+> 🇨🇳 China: lingzhi
+> 🇯🇵 Japón: reishi
+> 🇰🇷 Corea: yeongji
+>
+> Los tres vienen de la misma palabra escrita en chino antiguo; solo cambia cómo se pronuncia.
+> Y en latín, al primer Ganoderma que se describió le pusieron "lucidum": brillante. ✨ Brillo en griego, brillo en latín.
+>
+> Serie "Lo que nadie te dice de…" · Episodio 2
+>
+> ¿Cuál de sus nombres te suena más? 👇
+>
+> #Ganoderma #Reishi #Lingzhi #DXN #SabíasQue #DatosCuriosos
+
+Fuentes: Wikipedia "Lingzhi (mushroom)" y "Ganoderma lucidum"; Cao, Wu y Dai 2012 (Fungal Diversity).
