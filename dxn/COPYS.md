@@ -521,3 +521,24 @@ Archivo: `reels/gano03_arte_chino.mp4` (63 s, voz El Faraón 3, sin logo)
 > #Ganoderma #Lingzhi #ArteChino #DXN #SabíasQue #DatosCuriosos #Historia #Cultura
 
 Fuentes: Wikipedia "Ruyi (scepter)"; fichas del Cleveland Museum of Art, Museo del Palacio Nacional (Taipéi), The Met y Worcester Art Museum.
+
+## Ganoderma ep. 4: "Lo que nadie te dice del Ganoderma: dónde crece"
+
+Archivo: `reels/gano04_donde_crece.mp4` (64 s, voz El Faraón 3, sin logo, música caribe_1)
+
+> Puedes caminar horas por un bosque… y nunca encontrar uno. 🌲
+>
+> 🪵 El Ganoderma no crece en la tierra: crece en troncos y tocones de árboles de madera dura (roble, ciruelo, arce), ya viejos o muertos.
+> 🍂 Es un hongo de "pudrición blanca": deshace la parte más dura de la madera y la convierte en tierra nueva.
+> 🔎 En Asia, encontrarlo silvestre siempre fue difícil. Hasta los años 70 se logró cultivarlo.
+> 🇲🇽 Y lo que nadie te dice: en México se han registrado más de 20 especies de Ganoderma. Solo en Tabasco, un estudio encontró 21.
+>
+> ⚠️ Si ves uno, no lo arranques ni lo pruebes: muchas especies se parecen y solo un experto las distingue.
+>
+> Serie "Lo que nadie te dice de…" · Episodio 4
+>
+> ¿Has visto algún hongo así en un árbol? 👇
+>
+> #Ganoderma #Hongos #Naturaleza #México #Tabasco #DXN #SabíasQue #DatosCuriosos
+
+Fuentes: Wikipedia "Ganoderma lucidum"; UF/IFAS "Ganoderma"; Encyclopedia.com; Revista Mexicana de Biodiversidad (2023), registros de Ganoderma para México y Tabasco; Revista Mexicana de Micología v36.
