@@ -47,6 +47,14 @@ Descargar en una carpeta `fonts/` desde `https://raw.githubusercontent.com/googl
    [vo][duck]amix=inputs=2:normalize=0
    ```
 
+## Reglas acordadas para los próximos videos
+
+- **Sin logo pequeño en la esquina** durante el video; la marca va solo en el cierre (logo girando, 3 s).
+- **Gancho visible desde el primer cuadro** (sin fundido), algo cambia cada 2–3 s, 30–40 s en total.
+- **Educativos sin llamado a comprar** en el video ("pide el tuyo", precios): la venta va en el texto de la publicación.
+- Los reels de venta se hacen aparte, pensados para pautar.
+- Preferir **fotos y videos reales** del origen; ilustraciones solo para lo que no se puede fotografiar.
+
 ## Para adaptar a otra marca
 
 En `episodio_reel.py` cambiar: textos del gancho (`hook`), la etiqueta (`STICKER`), `SEGS`, `KEYS`, `SHOTS`, `TAGS`
