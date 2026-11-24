@@ -501,3 +501,23 @@ Archivo: `reels/gano02_tres_nombres.mp4` (33 s, voz El Faraón 3, sin logo)
 > #Ganoderma #Reishi #Lingzhi #DXN #SabíasQue #DatosCuriosos
 
 Fuentes: Wikipedia "Lingzhi (mushroom)" y "Ganoderma lucidum"; Cao, Wu y Dai 2012 (Fungal Diversity).
+
+## Ganoderma ep. 3: "Lo que nadie te dice del Ganoderma: está escondido en el arte chino"
+
+Archivo: `reels/gano03_arte_chino.mp4` (63 s, voz El Faraón 3, sin logo)
+
+> Este hongo lleva siglos escondido en el arte chino… y casi nadie lo nota. 🏮
+>
+> 🪄 El **ruyi**, un cetro ceremonial de emperadores y monjes, muchas veces tiene la punta en forma de lingzhi. Ruyi significa "como desees": regalar uno era desear buena fortuna.
+> 🦌 En tallas de jade y pinturas aparece junto a venados, grullas y pinos. En chino, "venado" (鹿 lù) suena igual que "prosperidad" (禄 lù).
+> 🏛️ Hoy muchas de esas piezas están en museos como el Met de Nueva York o el Museo del Palacio en Taipéi.
+>
+> La próxima vez que veas una espiral en un adorno chino… fíjate bien. 👀
+>
+> Serie "Lo que nadie te dice de…" · Episodio 3
+>
+> ¿Habías visto esta forma en algún adorno? 👇
+>
+> #Ganoderma #Lingzhi #ArteChino #DXN #SabíasQue #DatosCuriosos #Historia #Cultura
+
+Fuentes: Wikipedia "Ruyi (scepter)"; fichas del Cleveland Museum of Art, Museo del Palacio Nacional (Taipéi), The Met y Worcester Art Museum.
