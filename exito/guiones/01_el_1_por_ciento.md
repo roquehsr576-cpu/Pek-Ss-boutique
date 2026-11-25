@@ -42,3 +42,27 @@ cinematic inspirational instrumental, emotional piano intro, soft strings, slow 
 ```
 
 Notas para Suno: instrumental, sin voces, 1:15–1:30. Estructura: intro íntima (0–25 s), crece (25–45 s), clímax (45–60 s), final suave (60–75 s). Para usar la música en una página con fines comerciales, Suno pide un plan de pago.
+
+## Sincronización con la música ("Rise with Purpose", 2:57)
+
+Mapa de intensidad: entradas emotivas en 0:25, **0:50**, 1:14, 1:44 y 2:10; final tranquilo de 2:30 a 2:57.
+
+Montaje de la música (sin créditos):
+- Video 0–61 s = pista 0:20–1:21 (continua).
+- Video 61–78 s = pista 2:40–2:57 (cierre natural), con fundido cruzado de 2 s.
+
+| Momento del video | Qué pasa en la música | Qué pasa en el video |
+|---|---|---|
+| 0–4 s | Base presente, va subiendo | Gancho "1 % AL DÍA… ¿Y QUÉ?" |
+| 4–6 s | **Primera subida** (pista 0:25) | "Haz la cuenta 👀" entra con la subida |
+| 26–29 s | **Baja** (pista 0:46–0:49) | Pregunta a la mitad "¿Tú cuál has sido?", casi en silencio |
+| 30 s | **Entrada emotiva fuerte** (pista 0:50) | Revelación **× 37.8** en dorado, clip de la cima |
+| 50–53 s | Baja (pista 1:10–1:13) | "Fue lo pequeño, repetido todos los días" |
+| 54 s | **Subida** (pista 1:14) | "Invisible hoy. **Todo en un año.**" |
+| 61–78 s | Final tranquilo de la canción | Lucas 16:10 y pregunta de cierre; la música termina sola |
+
+Reglas de sincronía al renderizar:
+- Los cortes de escena caen en el golpe musical más cercano (±0.25 s) a la pausa de la voz.
+- Subtítulos palabra por palabra con los tiempos reales de la voz (silencedetect); palabras clave en dorado.
+- Los textos grandes (× 37.8, Lucas 16:10) entran con la subida de la música.
+- Después de generar la voz, se ajusta el arranque de la música (±3 s) para que la revelación caiga exacto en la entrada de 0:50.
