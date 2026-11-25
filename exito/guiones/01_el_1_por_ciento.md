@@ -1,6 +1,6 @@
-# Reel 1: "El 1 % diario" (propuesta, ~72 s)
+# Reel 1: "Fiel en lo poco" (el 1 % diario, propuesta, ~78 s)
 
-Estado: esperando el "dale" de Roque. No se han gastado créditos.
+Estado: esperando el "dale" de Roque. Enfoque cristocéntrico, sin dinero. No se han gastado créditos.
 
 Dato central: 1.01^365 ≈ 37.8 y 0.99^365 ≈ 0.026 (cálculo matemático; idea popularizada por James Clear en *Hábitos atómicos*).
 
@@ -9,7 +9,7 @@ Dato central: 1.01^365 ≈ 37.8 y 0.99^365 ≈ 0.026 (cálculo matemático; idea
 | 1 | 0–3 s | **Veo:** dos jóvenes en la misma línea de salida al amanecer; uno da un paso al frente, el otro se queda | "Mejorar solo uno por ciento al día parece nada…" | **1 % AL DÍA… ¿Y QUÉ?** |
 | 2 | 3–7 s | Mano escribiendo "1.01" en una libreta junto a una calculadora | "…hasta que haces la cuenta. Y el resultado no lo vas a creer." | **Haz la cuenta 👀** |
 | 3 | 7–12 s | Dos personas lado a lado en un camino al amanecer, vistas de espaldas | "Imagina a dos personas. Mismo punto de partida, mismo día uno." | PERSONA A · PERSONA B |
-| 4 | 12–17 s | Persona leyendo de mañana, luz cálida | "La primera mejora apenas un uno por ciento cada día: leer diez minutos, caminar un poco más, ahorrar unas monedas." | **A: +1 %** 📖 🚶 🪙 |
+| 4 | 12–17 s | Persona leyendo la Biblia de mañana, luz cálida | "La primera mejora apenas un uno por ciento cada día: diez minutos con Dios, caminar un poco más, cumplir su palabra." | **A: +1 %** 📖 🚶 🤝 |
 | 5 | 17–21 s | Persona en el sillón de noche con el celular | "La segunda empeora apenas un uno por ciento: una excusa aquí, un 'mañana lo hago' allá." | **B: −1 %** |
 | 6 | 21–25 s | Las dos personas casi iguales, contador de días | "Al principio no se nota nada. Día uno, día siete, día treinta… casi iguales." | DÍA 1 · DÍA 7 · DÍA 30 |
 | 7 | 25–30 s | Primer plano, mirada a cámara, fondo oscuro | "Antes de ver el resultado, piénsalo: ¿tú cuál de los dos has sido este año?" | **¿Tú cuál has sido?** (pregunta a la mitad) |
@@ -18,7 +18,8 @@ Dato central: 1.01^365 ≈ 37.8 y 0.99^365 ≈ 0.026 (cálculo matemático; idea
 | 10 | 45–52 s | **Veo:** manos poniendo ladrillos uno por uno; la pared crece | "La diferencia no fue un gran cambio. Fue lo pequeño, repetido todos los días." | Lo pequeño, **todos los días** |
 | 11 | 52–60 s | Semilla que brota y se vuelve árbol | "Así funcionan los hábitos: el uno por ciento es invisible hoy… y lo es todo en un año." | Invisible hoy. **Todo en un año.** |
 | 12 | 60–66 s | Fondo limpio con las cuentas | "Uno punto cero uno a la trescientos sesenta y cinco. Haz la cuenta tú mismo." | 1.01³⁶⁵ = 37.8 · 0.99³⁶⁵ = 0.03 · *Cálculo matemático; idea de "Hábitos atómicos", James Clear* |
-| 13 | 66–72 s | Ventana al amanecer, café y libreta abierta | "Entonces dime… ¿en qué te vas a mejorar uno por ciento mañana?" | **¿En qué te vas a mejorar 1 % mañana?** |
+| 13 | 66–72 s | Biblia abierta junto a una ventana al amanecer | "Jesús lo dijo hace dos mil años: el que es fiel en lo muy poco, también en lo más es fiel." | *"El que es fiel en lo muy poco, también en lo más es fiel."* · **Lucas 16:10** |
+| 14 | 72–78 s | Ventana al amanecer, café y libreta abierta | "Entonces dime… ¿en qué vas a ser fiel en lo poco mañana?" | **¿En qué vas a ser fiel en lo poco mañana?** |
 
 Pie en todas las escenas: "Imágenes creadas con IA".
 
@@ -26,7 +27,7 @@ Pie en todas las escenas: "Imágenes creadas con IA".
 
 | Concepto | Cantidad | Créditos |
 |---|---|---|
-| Imágenes Higgsfield z_image | 13 (+ repeticiones) | ~2–3 Higgsfield (de 23.06) |
+| Imágenes Higgsfield z_image | 14 (+ repeticiones) | ~2–3 Higgsfield (de 23.06) |
 | Clips Veo (kie.ai), escenas 1, 8 y 10 | 3 × ~60 | ~180 kie.ai (de 440.85) |
 | Voz ElevenLabs eleven_v4 | ~1 toma | centavos |
 
