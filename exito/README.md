@@ -19,3 +19,9 @@ Reels motivacionales para la página "El Verdadero Éxito". Es una página separ
 6. Videos en `reels/`, copys en `COPYS.md`, aprendizajes en `APRENDIZAJES.md`. Commit y push al terminar cada video.
 
 Las reglas base vienen de `dxn/` (rama `claude/focused-franklin-ovqeea`): `APRENDIZAJES.md`, `POLITICAS.md`, `ESTILO_ANIMACION.md`.
+
+## Producción del reel 1 (lo que se aprendió)
+
+- Veo (kie.ai, veo3_fast) devolvió "Internal Error" 3 veces sin cobrar; se usó **Kling 2.6 imagen a video** en kie.ai (`scripts/kie_kling_img.py`, 63 créditos por clip de 5 s).
+- Higgsfield en plan gratis solo permite 1 imagen a la vez.
+- Render: `scripts/fiel_reel.py` (alineación de frases con las pausas de la voz, subtítulos palabra por palabra) y `scripts/mezcla.py` (la entrada emotiva de la música cae en la revelación y el final natural de la canción acompaña el cierre).
