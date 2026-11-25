@@ -562,3 +562,32 @@ Archivo: `reels/gano05_polvo_cafe.mp4` (63 s, voz El Faraón 3, sin logo, músic
 Comentario fijado: "¿Tú ya habías visto este polvo café? 👇"
 
 Fuentes: Hong Kong Chinese Materia Medica Standards vol. 9 (Ganoderma); Wikipedia "Ganoderma"; Arora, *Mushrooms Demystified* (1986), citado por Wayne's Word y apuntes de botánica; Pacific Forestry Centre (G. applanatum).
+
+## Prevención de diabetes ep. 1: "Tu sangre puede estar dulce… y no sentir nada"
+
+Archivo: `reels/diabetes01_sangre_dulce.mp4` (77 s, 10 clips animados con Veo, voz El Faraón 3, sin productos ni logo)
+
+> Tu sangre puede estar dulce… y no sentir nada. 🩸
+>
+> 🔑 La insulina es la llave que deja entrar la glucosa a tus células. Cuando la llave falta o la puerta no responde, el azúcar se queda en la sangre.
+>
+> 📊 Glucosa en ayunas (mg/dL):
+> 🟢 Menos de 100: normal
+> 🟡 100 a 125: prediabetes
+> 🔴 126 o más: diabetes
+>
+> 🇲🇽 En México, casi 1 de cada 5 adultos vive con diabetes… y 1 de cada 3 de ellos no lo sabe (ENSANUT 2022).
+>
+> ⚠️ Señales: mucha sed, orinar seguido, cansancio, visión borrosa, heridas que tardan en sanar. Pero la prediabetes casi nunca avisa: la única forma de saberlo es con un análisis.
+>
+> Información general. No sustituye la consulta médica.
+>
+> ¿Tú cuándo fue la última vez que te hiciste un análisis de glucosa? 👇
+>
+> #Diabetes #Prevención #Salud #Glucosa #Prediabetes #México #SabíasQue
+
+Comentario fijado: "¿Cuándo fue la última vez que te hiciste un análisis de glucosa? 👇"
+
+Reglas: no publicar el mismo día que un post de productos; en inbox nunca decir que un producto sirve para la diabetes.
+
+Fuentes: ENSANUT 2022 (Basto-Abreu et al., Salud Pública de México 65 supl. 1); American Heart Association y ADA (criterios de glucosa en ayunas); departamentos de salud estatales (síntomas).
