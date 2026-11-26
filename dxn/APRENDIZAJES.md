@@ -12,6 +12,15 @@ Guía viva. Se actualiza cada vez que Roque manda las estadísticas de un video 
 | Reel 14 v3: agua con gancho nuevo | Abre con "Tus huesos son 31 % agua" + intriga a los 3 s | Pendiente (Instagram) | Prueba directa de la lección del reel 14: comparar su gráfica con la de la v1. |
 | Reel 16: hábitos + gansos | 3 pasos + historia de aves | Pendiente de estadísticas | Primer video con gancho que rompe expectativa ("No empieces por la comida…"). Comparar con el reel 14. |
 | Ganoderma ep. 1: "NO es una planta" (44 s) | Ilustraciones 3D + voz Faraón 3 | A las 8 h: **1,543 visualizaciones (~7× lo normal)**, 503 reproducciones de 3 s, 25 compartidos, 40 reacciones, **0 comentarios**, 97.3 % no seguidores, +3 seguidores. Promedio 12 s (27 %); 14.6 % pasa del segundo 20; **la mayoría se va en el segundo 4** | La portada daba la respuesta ("Y ES UN HONGO") y la voz la confirmaba en el segundo 4.6: misma falla que el reel 14. El tema sí se comparte mucho. La pregunta final casi nadie la oye: ponerla también a la mitad o fijarla como comentario. |
+| Ganoderma ep. 1 a 1 día | (mismo reel) | **10,478 visualizaciones**, 8,440 espectadores, 3,466 reproducciones de 3 s, **101 compartidos**, 270 reacciones, 3 comentarios, **+43 seguidores**, 98.3 % no seguidores, 63 % llegó por Reels. Promedio 13 s (29 %); 17.6 % pasa del segundo 20; la mayor caída sigue en el segundo 4 | **El mejor resultado de la página.** Funcionó: tema que rompe una creencia ("no es una planta"), dato que da gusto compartir, ilustración 3D llamativa desde el cuadro 1, etiqueta de serie ("Episodio 1") que invita a seguir, cero venta. Falta: no revelar en el segundo 4 y pedir opinión a la mitad. |
+
+## La fórmula que más ha funcionado (Ganoderma ep. 1: 10 mil vistas, 101 compartidos)
+
+1. **Tema que rompe una creencia común** ("Lo llaman hierba… y es un hongo"). La gente comparte lo que la hace ver lista.
+2. **Datos curiosos verificables**, no beneficios ni venta.
+3. **Ilustración 3D llamativa** desde el primer cuadro, con movimiento lento de cámara (sin necesidad de clips de video).
+4. **Serie con número de episodio**: da razón para seguir la página (+43 seguidores).
+5. **Duración de 45–75 s**, voz grave (El Faraón 3) y subtítulos palabra por palabra.
 
 ## Reglas del gancho (primeros 3 segundos)
 

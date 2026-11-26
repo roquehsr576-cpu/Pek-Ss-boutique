@@ -591,3 +591,25 @@ Comentario fijado: "¿Cuándo fue la última vez que te hiciste un análisis de 
 Reglas: no publicar el mismo día que un post de productos; en inbox nunca decir que un producto sirve para la diabetes.
 
 Fuentes: ENSANUT 2022 (Basto-Abreu et al., Salud Pública de México 65 supl. 1); American Heart Association y ADA (criterios de glucosa en ayunas); departamentos de salud estatales (síntomas).
+
+## Melena de león ep. 1: "Este hongo no tiene sombrero"
+
+Archivo: `reels/melena01_no_tiene_sombrero.mp4` (73 s, voz El Faraón 3, ilustraciones con movimiento de cámara, sin logo ni productos)
+
+> Este hongo no tiene sombrero… ni tallo. ¿Entonces qué es? 🤔
+>
+> Está hecho de cientos de espinas blancas que cuelgan. Su nombre científico, Hericium erinaceus, viene del latín para "erizo"… dos veces. 🦔
+> En Japón le dicen yamabushitake, por los monjes de las montañas. En China, "hongo cabeza de mono". 🐒
+> Y lo que nadie te dice: también crece en México, en los bosques de Hidalgo. 🇲🇽
+>
+> ⚠️ Si lo ves, no lo arranques ni lo pruebes: hay hongos parecidos y solo un experto los distingue.
+>
+> Serie "Lo que nadie te dice de…" · Melena de león, episodio 1
+>
+> ¿Tú cómo le dirías: erizo, cabeza de mono… o melena de león? 👇
+>
+> #MelenaDeLeón #Hongos #Naturaleza #México #Hidalgo #DXN #SabíasQue #DatosCuriosos
+
+Comentario fijado: "¿Tú ya habías visto un hongo así? 👇"
+
+Fuentes: ver `investigacion/melena_de_leon.md`.
