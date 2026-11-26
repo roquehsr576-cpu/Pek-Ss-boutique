@@ -2,7 +2,7 @@
 """Marca de agua DECOMPIS para fotos y videos.
 
 Pone dos capas, ambas leves:
-  1. El logo circular de DECOMPIS en una esquina (semitransparente).
+  1. El logo circular de DECOMPIS en el centro (semitransparente).
   2. La palabra "DECOMPIS" repetida en diagonal sobre toda la imagen, muy tenue,
      para que no se pueda quitar recortando la esquina.
 
@@ -12,8 +12,8 @@ Uso:
 
 Opciones:
   --salida DIR       carpeta donde guardar (por defecto: marca/con_marca/)
-  --esquina POS      abajo-derecha (defecto), abajo-izquierda, arriba-derecha, arriba-izquierda
-  --logo-opacidad N  0-100, opacidad del logo (defecto 45)
+  --esquina POS      centro (defecto), abajo-derecha, abajo-izquierda, arriba-derecha, arriba-izquierda
+  --logo-opacidad N  0-100, opacidad del logo (defecto 25 en el centro, 45 en esquina)
   --texto-opacidad N 0-100, opacidad del texto repetido (defecto 7; 0 lo quita)
 """
 import argparse
@@ -60,13 +60,17 @@ def capa_marca(ancho, alto, esquina, logo_op, texto_op):
     # 2. Logo en la esquina
     if logo_op > 0:
         logo = Image.open(LOGO).convert("RGBA")
-        t = max(60, int(lado * 0.17))
+        centro = esquina == "centro"
+        t = max(60, int(lado * (0.32 if centro else 0.17)))
         logo = logo.resize((t, t), Image.LANCZOS)
         a = logo.getchannel("A").point(lambda v: int(v * logo_op / 100))
         logo.putalpha(a)
         m = int(lado * 0.035)
-        x = m if "izquierda" in esquina else ancho - t - m
-        y = m if "arriba" in esquina else alto - t - m
+        if centro:
+            x, y = (ancho - t) // 2, (alto - t) // 2
+        else:
+            x = m if "izquierda" in esquina else ancho - t - m
+            y = m if "arriba" in esquina else alto - t - m
         capa.alpha_composite(logo, (x, y))
     return capa
 
@@ -102,11 +106,13 @@ def main():
     p = argparse.ArgumentParser(description="Marca de agua DECOMPIS")
     p.add_argument("archivos", nargs="+")
     p.add_argument("--salida", default=str(AQUI / "con_marca"))
-    p.add_argument("--esquina", default="abajo-derecha",
-                   choices=["abajo-derecha", "abajo-izquierda", "arriba-derecha", "arriba-izquierda"])
-    p.add_argument("--logo-opacidad", type=int, default=45)
+    p.add_argument("--esquina", default="centro",
+                   choices=["centro", "abajo-derecha", "abajo-izquierda", "arriba-derecha", "arriba-izquierda"])
+    p.add_argument("--logo-opacidad", type=int, default=None)
     p.add_argument("--texto-opacidad", type=int, default=7)
     args = p.parse_args()
+    if args.logo_opacidad is None:
+        args.logo_opacidad = 25 if args.esquina == "centro" else 45
 
     entradas = []
     for a in args.archivos:
