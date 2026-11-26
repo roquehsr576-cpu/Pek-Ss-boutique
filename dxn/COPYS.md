@@ -613,3 +613,28 @@ Archivo: `reels/melena01_no_tiene_sombrero.mp4` (73 s, voz El Faraón 3, ilustra
 Comentario fijado: "¿Tú ya habías visto un hongo así? 👇"
 
 Fuentes: ver `investigacion/melena_de_leon.md`.
+
+## Melena de león ep. 2: "Ganoderma vs. melena de león"
+
+Archivo: `reels/melena02_ganoderma_vs_melena.mp4` (82 s, voz El Faraón 3, pantalla dividida, sin logo ni productos)
+
+> Dos hongos famosos… ¿cuál es cuál? 🍄🆚🦁
+>
+> Uno parece de madera barnizada; el otro, una barba blanca. Los dos crecen en madera dura… pero en 5 rondas son totalmente distintos:
+> 1️⃣ Forma: abanico vs. pompón
+> 2️⃣ Tacto: duro vs. suave
+> 3️⃣ Cocina: uno se cocina fresco… el otro se hierve como té
+> 4️⃣ Nombre: "piel brillante" vs. "erizo"
+> 5️⃣ Esporas: por poros vs. por espinas
+>
+> Y un dato extra: en el Reino Unido arrancar la melena de león está prohibido por la ley. 🇬🇧
+>
+> Serie "Lo que nadie te dice de…" · Melena de león, episodio 2
+>
+> ¿Cuál te llama más la atención: el brillante o el peludo? 👇
+>
+> #Ganoderma #MelenaDeLeón #Hongos #Naturaleza #DXN #SabíasQue #DatosCuriosos
+
+Comentario fijado: "¿Tú cuál creías que se comía fresco? 👇"
+
+Fuentes: Wikipedia (Hericium erinaceus, Ganoderma lucidum); Missouri Department of Conservation y Mykoweb (H. erinaceus: esporas en espinas, comestible joven); Hong Kong Chinese Materia Medica (Ganoderma duro, ligeramente amargo); Wikipedia (protección legal en Reino Unido).
