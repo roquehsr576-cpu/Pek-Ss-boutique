@@ -49,11 +49,12 @@ Descargar en una carpeta `fonts/` desde `https://raw.githubusercontent.com/googl
 
 ## Reglas acordadas para los próximos videos
 
-- **Sin logo pequeño en la esquina** durante el video; la marca va solo en el cierre (logo girando, 3 s).
+- **Solo contenido de enseñanza, hecho para compartirse.** Sin logo, sin nombre de la marca, sin "nuestro café",
+  sin mencionar venta, envíos, WhatsApp ni precios, y sin promesas. El perfil de la página ya dice quién lo publica.
 - **Gancho visible desde el primer cuadro** (sin fundido), algo cambia cada 2–3 s, 30–40 s en total.
-- **Educativos sin llamado a comprar** en el video ("pide el tuyo", precios): la venta va en el texto de la publicación.
-- Los reels de venta se hacen aparte, pensados para pautar.
-- Preferir **fotos y videos reales** del origen; ilustraciones solo para lo que no se puede fotografiar.
+- Cierre con un dato o una pregunta abierta; nunca pedir "comenta / comparte / sigue".
+- Preferir **fotos y videos reales**; ilustraciones solo para lo que no se puede fotografiar.
+- Los reels de venta (si se hacen) van aparte, pensados para pautar.
 
 ## Para adaptar a otra marca
 
