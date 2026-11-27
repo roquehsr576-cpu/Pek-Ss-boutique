@@ -7,6 +7,7 @@ Solo enseñanza, hecho para compartirse; nunca pedir "comenta / comparte / sigue
 | Video | Tema | Duración |
 |---|---|---|
 | `josbal_receta_goteo_1a16.mp4` | Café de goteo: la regla 1:16 | 44 s |
+| `papas_a_la_francesa_doble_fritura_v2.mp4` | Igual, con gancho nuevo: "¿Tus papas salen aguadas?" (texto grande desde el primer cuadro) | 54 s |
 | `papas_a_la_francesa_doble_fritura.mp4` | Papas a la francesa: doble fritura 160 °C → 180 °C | 53 s |
 
 ## Cómo se hizo
@@ -22,3 +23,9 @@ Solo enseñanza, hecho para compartirse; nunca pedir "comenta / comparte / sigue
      -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -shortest video.mp4
    ```
    Para revisar un cuadro suelto: `python3 herramientas/receta_en_numeros_goteo.py fonts 0 0 <segundo> cuadro.png`
+
+## Ganchos
+
+`herramientas/gancho.py` arma los primeros segundos con el texto completo visible desde el primer cuadro
+(lo que más se repite en los reels de comida y café que están pegando). Se pega delante del video ya hecho:
+gancho + video original recortado en la primera pausa, y voz del gancho + voz original recortada en el mismo punto.

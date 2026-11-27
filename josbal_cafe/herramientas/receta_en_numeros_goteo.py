@@ -6,8 +6,6 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 W, H, FPS = 1080, 1920, 30
 DUR = 44.0
 FONTS = sys.argv[1]
-START = float(sys.argv[2]) if len(sys.argv) > 2 else 0.0
-END = float(sys.argv[3]) if len(sys.argv) > 3 else DUR
 
 # Paleta del logo (sin logo ni nombre en pantalla)
 BG = (28, 18, 12)
@@ -309,5 +307,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 4:
         Image.fromarray(frame(float(sys.argv[4]))).save(sys.argv[5])
         sys.exit()
-    for i in range(int(START * FPS), int(END * FPS)):
+    start, end = float(sys.argv[2]), float(sys.argv[3])
+    for i in range(int(start * FPS), int(end * FPS)):
         sys.stdout.buffer.write(frame(i / FPS).tobytes())
