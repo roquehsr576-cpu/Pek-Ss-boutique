@@ -7,6 +7,7 @@ Solo enseñanza, hecho para compartirse; nunca pedir "comenta / comparte / sigue
 | Video | Tema | Duración |
 |---|---|---|
 | `josbal_receta_goteo_1a16.mp4` | Café de goteo: la regla 1:16 | 44 s |
+| `papas_a_la_francesa_doble_fritura.mp4` | Papas a la francesa: doble fritura 160 °C → 180 °C | 53 s |
 
 ## Cómo se hizo
 
