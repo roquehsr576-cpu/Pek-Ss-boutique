@@ -9,6 +9,7 @@ Solo enseñanza, hecho para compartirse; nunca pedir "comenta / comparte / sigue
 | `josbal_receta_goteo_1a16.mp4` | Café de goteo: la regla 1:16 | 44 s |
 | `papas_a_la_francesa_doble_fritura_v2.mp4` | Igual, con gancho nuevo: "¿Tus papas salen aguadas?" (texto grande desde el primer cuadro) | 54 s |
 | `5_cosas_que_hace_una_cafeteria.mp4` | 5 cosas que hace una cafetería y que no ves (lista con gancho de "secreto") | 45 s |
+| `tizana_frutos_reales_reedicion.mp4` | Re-edición del reel de la tizana: pantalla completa, gancho, cortes, subtítulos grandes, sin cierre de venta | 23 s |
 | `papas_a_la_francesa_doble_fritura.mp4` | Papas a la francesa: doble fritura 160 °C → 180 °C | 53 s |
 
 ## Cómo se hizo
