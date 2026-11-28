@@ -1,61 +1,52 @@
-# Guion 02 · "Apoya a nuestros productores", con datos (continuación del documental)
+# Guion 02 (v2) · "México cultiva café… y lo compra afuera"
 
-Sigue al documental "El verdadero precio del café". Ahora con la actualización del 27 de noviembre y el llamado a unirnos como consumidores.
+Continuación del documental, **con datos nuevos** (sin repetir 43/45, ni el 90 %, ni los 500 mil productores). Datos y fuentes en `contenido/banco_de_datos_cafe.md`.
 
 | Bloque | |
 |---|---|
 | Tipo de empatía | 2 · Te cuestiono (con datos) + cierre de unión |
-| ¿A quién? | Todos los que toman café en México (grupo enorme) |
-| ¿Qué sienten? | Sorpresa con los números, coraje callado y después orgullo de poder hacer algo |
-| Idea central | "Mientras otros deciden el precio, nosotros decidimos a quién le compramos." |
-| ¿Cómo lo cuento? | A cámara (Roque), con tarjetas de datos animadas entre frases |
-
-**¿Con qué se queda la persona?** Contigo (seguidores) y con la idea (se comparte).
+| ¿A quién? | Todos los que toman café en México |
+| ¿Qué sienten? | Sorpresa ("¿neta importamos café?"), preocupación y orgullo de poder hacer algo |
+| Idea central | "Si no cuidamos a quien cultiva el café, mañana no va a haber quién lo cultive." |
+| ¿Cómo lo cuento? | A cámara, con tarjetas de datos entre frases |
 
 ## Gancho (texto grande desde el primer cuadro)
-**"Les pagan 43 pesos… y les cuesta 45."**
+**"México cultiva café… y aun así lo compra afuera."**
 
 ## Guion para teleprompter (~50 s)
 
-Les pagan 43 pesos por kilo de café…
-y producirlo les cuesta alrededor de 45.
+México produce unos 4 millones de sacos de café al año…
+y aun así compra afuera el equivalente a 2.4 millones de sacos más.
 
-Eso denunciaron los cafeticultores de Chiapas que marcharon en Tapachula el 23 de noviembre.
+¿Sabías que importamos tanto café?
 
-El 27, el gobierno federal pidió precios justos y dijo que ya hay diálogo.
-Pero hasta hoy no se ha anunciado un acuerdo con un precio.
+En 2025, el café llegó al precio más alto de su historia en la bolsa de Nueva York…
+y en muchas comunidades cafetaleras de México casi no se notó.
 
-Y no es solo Chiapas:
-en México hay más de 500 mil productores de café, en unos 480 municipios.
-Y 7 de cada 10 familias cafetaleras son de pueblos originarios.
+Mientras, quienes lo cultivan son cada vez mayores:
+en el centro de Veracruz, la mayoría ya pasa de los 60 años.
+Y los jóvenes se van, porque el café no les alcanza para vivir.
 
-¿Sabías que eran tantos?
+Si los que cultivan se van… ¿quién va a cultivar el café que tomamos?
 
-Mientras otros deciden el precio… nosotros decidimos a quién le compramos.
-
-Comprarle directo a quien lo cultiva.
-Preguntar de dónde viene el café que tomas.
-Recomendar de boca en boca al productor que saca adelante a su familia.
-
-Así el dinero se queda con quien lo trabajó.
+Por eso lo que hacemos nosotros cuenta:
+tomar café de aquí, preguntar de dónde viene,
+y recomendar de boca en boca al productor que conoces.
 
 Nosotros somos pueblo. Y entre pueblo nos cuidamos.
 
-¿Conoces a algún productor de café al que le puedas comprar directo?
+¿Tú sabes si el café que tomaste hoy es mexicano?
 
-## Tarjetas de datos (entran entre frases, nunca sobre tu cara)
-| Momento | Tarjeta | Fuente en letra chica |
+## Tarjetas de datos (entre frases, nunca sobre tu cara)
+| Momento | Tarjeta | Fuente (letra chica) |
 |---|---|---|
-| 0–3 s | **43 pesos** (rojo) vs **45 pesos** · "por kilo · café robusta de Chiapas" | La Jornada, El Imparcial, El Sol del Soconusco · 23 nov 2026 |
-| "El 27…" | **27 NOV** · "El gobierno federal pide precios justos · diálogo en curso" | Crónica, El Imparcial · 27 nov 2026 |
-| "500 mil" | **+500,000 productores** · "≈480 municipios · 14–15 estados" | SADER (padrón SIAP); Embajada de México en Reino Unido (SRE) |
-| "7 de cada 10" | **7 de cada 10** · "familias cafetaleras de pueblos originarios" | Embajada de México en Reino Unido (SRE) |
-| Unirnos | Tres íconos: 🛒 compra directo · ❓ pregunta de dónde viene · 🗣️ recomienda | — |
+| 0–3 s | **4.1 millones** de sacos producidos vs. **2.4 millones** importados | USDA FAS · pronóstico 2026/27 |
+| "precio más alto" | Gráfica que sube: **récord histórico, feb 2025** | Bolsa de Nueva York (ICE) |
+| "mayores" | **60+ años** · la mayoría de los productores del centro de Veracruz | Hernández y Nava (2016), vía Rev. Agroproductividad |
+| "se van" | Silueta caminando hacia la ciudad · "sin relevo generacional" | Estudios académicos; EFE |
+| Unirnos | 🇲🇽 café de aquí · ❓ pregunta de dónde viene · 🗣️ recomienda | — |
 
-## Antes de publicar
-- **Revisa si ya hubo acuerdo.** Si SADER, los productores y la empresa anuncian un precio, cambia la frase "hasta hoy no se ha anunciado un acuerdo" por el dato nuevo.
-- **No se nombra a la empresa** (regla de la casa). Las notas la nombran; el video no.
-- **Fue una marcha, no una huelga.** Así lo reportan los medios.
-- **La cifra de 165 mil familias es del gremio de productores, no un dato oficial.** Por eso no va en el video.
-- **No se usa el porcentaje que le llega al productor de una taza:** las estimaciones internacionales van del 1 % al 10 % y no son comparables. Si se quiere usar, la frase sería "según estimaciones internacionales, al productor le llega menos del 10 % de lo que se paga por el café" (La Opinión, 2017).
-- **Venta:** el guion no menciona Dulce Café. Si alguien pregunta dónde comprar, se le contesta por mensaje privado.
+## Notas
+- Las cifras de sacos son del USDA (Departamento de Agricultura de EE. UU.), la fuente que más se usa en el mundo para esto. "Equivalente" porque se importa café verde, soluble y tostado.
+- "Casi no se notó" está respaldado por reportes de productores de Veracruz (XEU) y Chiapas.
+- No se nombra ninguna empresa.
