@@ -9,7 +9,7 @@ Referencia: el mismo método aplicado a PeK'sS (rama `claude/exciting-albattani-
 
 - **Marca / página:** Dulce Café.
 - **A qué se dedica:** café de altura de Tanetze de Zaragoza, Oaxaca (1,280 m), cultivado a la sombra, cortado a mano, secado al sol en petate y de tostado claro. Se envía a todo México.
-- **A quién le hablo:** gente de 35 a 64 años que toma café todos los días, sobre todo quienes crecieron con el café de pueblo o de la abuela y hoy viven en la ciudad. *(Dato real: en el documental del precio del café, el 78 % de quien lo vio tenía entre 35 y 64 años y el 84 % no seguía la página.)*
+- **A quién le hablo:** gente de 35 a 64 años que toma café todos los días, sobre todo quienes crecieron con el café de pueblo o de la abuela y hoy viven en la ciudad. *(Dato real: en el documental del precio del café, la mayor parte del público era adulto de más de 35 años y el 84 % no seguía la página.)*
 
 ## 1. Qué ya se ha hecho y qué aprendimos
 
