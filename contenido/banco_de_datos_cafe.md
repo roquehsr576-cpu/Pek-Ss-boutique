@@ -27,3 +27,12 @@ Datos reales con fuente, para alimentar videos nuevos. Marca cada dato cuando lo
 - **Lo que no dicen:** "El café nunca había estado tan caro… y al campo no le llegó." (datos 3 y 4)
 - **Identidad:** "Si tu familia viene del cafetal, esto es para ti." (dato 7)
 - **Broma (top 3):** "Top 3 cosas que no sabías del café que tomas": 3. México produce 4 millones de sacos. 2. Y compra 2.4 millones afuera. 1. El de frasco que tomas puede ni ser de aquí. (datos 1, 2 y 8)
+
+## Datos nuevos (serie "Sin campo no hay comida")
+| # | Dato | Qué tan sólido | Fuente |
+|---|---|---|---|
+| 10 | Se necesitan ≈ **5 kg de cereza para 1 kg de pergamino seco** y ≈ **6.7 kg de cereza para 1 kg de café oro (verde)**. Con la merma del tostado (15–20 %), son **≈ 8 kg de cereza por 1 kg de café tostado**. | Sólido hasta el café oro (Cenicafé); el paso a tostado es un cálculo aproximado | Cenicafé (Colombia); el cálculo del tostado es nuestro |
+| 11 | En un canal **corto** (cooperativa o venta directa), un estudio en el sur del Estado de México encontró que el productor se quedó con **≈ 75 %** del precio de venta; los acopiadores con ≈ 16 % y los detallistas con ≈ 9 %. | Medio (un estudio regional). **Verificar el enlace exacto antes de publicar** | Estudio académico sobre la cadena del café en el sur del Estado de México (resultados de búsqueda: redalyc / scielo) |
+| 12 | Los **"coyotes"** (intermediarios informales) compran a precios más bajos y a veces dan créditos abusivos. | Sólido (informe documentado) | PRODESC, informe sobre cadenas de café en México |
+| 13 | **"Sin maíz no hay país"** es el lema de una campaña de más de 300 organizaciones campesinas, indígenas y de consumidores, nacida en **2007**. | Sólido | La Jornada (2007); Columbia Climate School |
+| 14 | En la pirámide de **Maslow**, la comida está en la **base**: es de las necesidades fisiológicas, lo primero para vivir. | Sólido (teoría conocida) | A. Maslow, 1943 |
