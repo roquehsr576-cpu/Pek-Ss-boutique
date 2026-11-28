@@ -29,6 +29,17 @@ Pregunta al usuario (juntas, en un solo mensaje):
 
 Si el usuario no especifica objetivo, Claude lo infiere del tema.
 
+**Paso 2.5 — Armar los 5 bloques de empatía** (método @enriquebisnes, ver `contenido/metodo-empatia.md` en el repo)
+
+Antes de elegir estructura, llena con el usuario (o propón y confirma):
+1. **Tipo de empatía**: identidad ("así soy yo") · te cuestiono ("sí es cierto") · con la historia ("este es fulano") · lo que piensan y no dicen ("por fin alguien lo dijo") · un grupo por su debilidad ("nadie me había entendido") · con broma (top 3 con plot twist)
+2. **¿A quién?** (entre más grande el grupo, más viral)
+3. **¿Qué sienten?** (no solo dolores, también lo bueno)
+4. **Idea central** en UNA frase
+5. **¿Cómo lo cuento?** (a cámara / historia / top 3)
+
+Define si la meta es que se queden **con la marca** (identidad, te cuestiono, debilidad → seguidores) o **con la idea** (historia, broma → vistas y compartidos). El hook sale de la idea central. El último slide cierra con una **pregunta abierta** además del CTA; nunca "comenta", "comparte" ni "etiqueta". No tapar caras con texto.
+
 **Paso 3 — Seleccionar estructura narrativa**
 
 Con el tema + objetivo, Claude **elige la estructura más adecuada** de las 35 disponibles (ver sección ESTRUCTURAS abajo). Presenta al usuario:
